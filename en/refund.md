@@ -2,7 +2,7 @@
 title: ScoreCue Payment & Refund Policy
 permalink: /en/refund/
 effective: 2026-07-30
-updated: 2026-08-14
+updated: 2026-08-25
 description: ScoreCue products, how to cancel a subscription, and how to request a refund
 lang: en
 alt: /ko/refund/
@@ -17,9 +17,8 @@ alt: /ko/refund/
 
 | Product | Type | What it unlocks |
 |---|---|---|
-| Pro Lifetime | One-time purchase (no expiry) | Unlimited tempo sync, A-B loop, annotated PDF export<br>**+ opening ensembles and running a band for one year from purchase** |
-| Pro Yearly | Auto-renewing annual subscription | All of the above **+ opening ensembles and running a band for as long as the subscription is active** |
-| Band | Auto-renewing annual subscription | Opening ensembles, creating and running a band (posting events and announcements) |
+| Pro Lifetime | One-time purchase (no expiry) | Unlimited tempo sync, A-B loop, annotated PDF export,<br>opening ensembles, creating and running a band — **permanently, with no time limit** |
+| Pro Yearly | Auto-renewing annual subscription (2-week free trial) | **The same scope**, for as long as the subscription is active |
 
 </div>
 
@@ -27,19 +26,25 @@ alt: /ko/refund/
   country under each store's pricing policy.
 - **Joining an ensemble is always free.** Payment is only required to *open* a session, so one purchase
   lets every other member join the ensembles that person hosts.
-- **The Pro Yearly subscription includes the band entitlement**, so subscribers do not need to buy the
-  Band product separately.
-- **The Pro Lifetime product includes the band entitlement for one year from the date of purchase.**
-  After that year, opening ensembles or running a band requires purchasing the Band product separately.
-  The band entitlement incurs ongoing server costs that a single payment cannot fund indefinitely, so the
-  Band product is a much cheaper separate subscription covering only that recurring cost.
-- **If you cancel the Yearly subscription and move to the Lifetime product**, the band entitlement ends
-  once the Lifetime product's one-year period has elapsed. Purchase the Band product to continue. Band
-  data is not deleted and becomes available again immediately upon purchase.
-- **There is no free trial period.** Instead, viewing scores, annotating, the metronome, and joining
-  ensemble sessions remain usable without signing in, and tempo sync playback is free for 3 pieces
-  (4 if you belong to a band). Signed-in free users can also **open ensembles for 30 days from the first
-  session they open** (the 3-piece limit still applies).
+- **Both products unlock the same features.** What you choose is not a feature set but a **payment
+  method** — pay each year, or pay once. Opening ensembles and running a band are included in the
+  Lifetime product **with no time limit**.
+- **The Yearly subscription includes a 2-week free trial.** The trial is offered once per store
+  account and bills automatically when it ends. Cancel at least 24 hours before it ends and you are
+  not charged.
+- **A discounted first billing period may be offered for a limited time.** Any such discount applies
+  to the first period only and **renewals are charged at the regular price.** Whether it applies, and
+  the amount, are shown on the purchase screen.
+- **Buying the Lifetime product while a Yearly subscription is active does not cancel that
+  subscription**, because the stores do not support moving from a subscription to a one-time purchase.
+  The App asks right after the purchase whether to turn off auto-renewal; if you choose to, Android
+  turns the renewal off for you and iOS takes you to the store's subscription screen. **If you do not
+  turn it off, the subscription keeps renewing, so please check.** The remaining subscription period
+  stays usable.
+- **What is free**: viewing scores, annotating, the metronome, creating and saving timings, and
+  joining ensemble sessions remain usable without signing in, and tempo sync playback is free for
+  **3 pieces**. Signed-in free users can join bands and view or respond within them at no cost, and can
+  **open ensembles for 30 days from the first session they open** (the 3-piece limit still applies).
 - Paid entitlements are granted **to your account**. There is no device limit, and a purchase on either
   Android or iOS unlocks the App on the other for the same signed-in account.
 

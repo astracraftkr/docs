@@ -2,7 +2,7 @@
 title: ScoreCue Terms of Service
 permalink: /en/terms/
 effective: 2026-07-30
-updated: 2026-08-14
+updated: 2026-08-25
 description: Terms of service for the ScoreCue sheet music app
 lang: en
 alt: /ko/terms/
@@ -41,9 +41,10 @@ each user.
    same position together.
 7. **Band** — a group in the App's community feature, including its roster, events, announcements,
    and shared setlists.
-8. **Paid entitlements** — rights granted to a user's account through purchase, in two kinds:
+8. **Paid entitlements** — rights granted to a user's account through purchase, in two kinds.
+   **Both products (Pro Lifetime and Pro Yearly) grant both of them.**
    - **Pro entitlement** — on-device features (unlimited tempo sync, A-B loop, annotated PDF export)
-   - **Band entitlement** — **hosting (opening) ensemble sessions**, and creating and running a band
+   - **Community entitlement** — **hosting (opening) ensemble sessions**, and creating and running a band
      (posting events and announcements)
 
 ## 3. Publication and Changes to These Terms
@@ -79,16 +80,15 @@ each user.
    - **Joining** an ensemble session — no sign-in required and no limit on how often
    - Joining a band; viewing rosters, events, announcements, and shared setlists; responding to
      events; participating in availability polls
-   - **Tempo sync playback for 3 pieces** (4 for members of a band)
+   - **Tempo sync playback for 3 pieces** (regardless of band membership)
 2. Requires a paid entitlement:
    - Unlimited tempo sync playback, A-B loop, annotated PDF export (Pro entitlement)
-   - **Opening (hosting) an ensemble session**, and creating and running a band (Band entitlement)
+   - **Opening (hosting) an ensemble session**, and creating and running a band (Community entitlement)
 3. **Opening an ensemble session** requires sign-in and is provided as follows.
    - Signed-in free users: **30 days from the first session you open** (the 3-piece tempo sync limit
      still applies)
-   - Pro Lifetime purchasers: **one year from the date of purchase**
-   - Holders of the Band entitlement: no limit
-   - Within a band, **any member may start a band ensemble as long as the band's owner holds the Band
+   - Holders of a paid entitlement (Lifetime and Yearly alike): no limit
+   - Within a band, **any member may start a band ensemble as long as the band's owner holds a paid
      entitlement.** If the owner's entitlement expires, starting a band ensemble is restricted.
    - **Joining** an ensemble is always free, regardless of the above.
 4. A free playback slot is **taken when playback of a piece begins**, and a piece that holds a slot
@@ -104,34 +104,32 @@ each store.
 
 <div class="table-wrap" markdown="1">
 
-| Product | Type | Pro entitlement | Band entitlement |
+| Product | Type | Pro entitlement | Community entitlement |
 |---|---|---|---|
-| Pro Lifetime | One-time purchase (no expiry) | ✓ | **One year from purchase** |
-| Pro Yearly | Auto-renewing annual subscription | ✓ | **✓ included** |
-| Band | Auto-renewing annual subscription | ✗ | ✓ |
+| Pro Lifetime | One-time purchase (no expiry) | ✓ | **✓ permanently** |
+| Pro Yearly | Auto-renewing annual subscription (2-week free trial) | ✓ | **✓ while subscribed** |
 
 </div>
 
 1. **All payments are processed by Google Play or the Apple App Store.** The Developer does not
    collect or store payment credentials such as card numbers.
-2. **The Pro Yearly subscription includes the Band entitlement.** Subscribers do not need to purchase
-   the Band product separately.
-3. **The Pro Lifetime product includes the Band entitlement for one year from the date of purchase,
-   and not beyond it.** Accordingly, **after that year, opening ensemble sessions or running a band
-   requires purchasing the Band product separately.** The Band entitlement incurs ongoing server costs
-   that a single payment cannot fund indefinitely; the Band product is a smaller product covering only
-   that recurring cost. **Joining** a band, and **joining** an ensemble, require no purchase at all
+2. **Both products unlock the same scope.** What the user chooses is a payment method rather than a
+   feature set, and the Community entitlement is included in the Lifetime product **with no time
+   limit**. **Joining** a band, and **joining** an ensemble, require no purchase at all
    (Articles 5 and 8).
-4. **If a user cancels the Pro Yearly subscription and moves to the Lifetime product, the Band
-   entitlement ends once the Lifetime product's one-year period has elapsed.** The Band product must
-   be purchased to keep opening ensemble sessions and running a band. Band data is not deleted in this
-   case and becomes available again immediately upon purchase.
-5. The Band product is an add-on for users who already hold the Pro entitlement. Where a user holds no
-   Pro entitlement, the App presents the Pro products first.
+3. **The Pro Yearly subscription includes a 2-week free trial.** The trial is offered once per store
+   account and bills automatically when it ends. Cancel at least 24 hours before it ends and you are
+   not charged.
+4. The Developer may offer a **discounted first billing period** for a limited time. Any such discount
+   applies to that period only and **renewals are charged at the regular price**; whether it applies,
+   and the amount, are shown on the purchase screen.
+5. **Buying Pro Lifetime while a Pro Yearly subscription is active does not cancel that subscription**,
+   because the stores do not support moving from a subscription to a one-time purchase. The App asks
+   whether to turn off auto-renewal immediately after the Lifetime purchase; if the user does not
+   choose to, the subscription keeps renewing. The remaining subscription period stays usable.
 6. Subscriptions renew automatically at the end of each period unless cancelled, and renewal is
    charged shortly before the end of the period in accordance with store policy.
-7. The App does **not offer a free trial period.** The free scope in Article 5(1) serves that purpose.
-8. Cancellation and refunds follow the
+7. Cancellation and refunds follow the
    [Payment & Refund Policy]({{ '/en/refund/' | relative_url }}).
 
 ## 7. User Obligations and Score Copyright
@@ -158,14 +156,16 @@ each store.
    you post, and similar) visible to the other members of that band.** The exact scope is described in
    the [Privacy Policy]({{ '/en/privacy/' | relative_url }}).
 3. Joining a band and viewing or responding within it is free and requires no entitlement.
-4. If a band owner's Band entitlement expires, the band's operating features and **the ability to start
-   a band ensemble** are restricted, but band data already stored is not deleted arbitrarily, as
-   provided in Article 9. It is restored immediately if the owner purchases again.
+4. If a band owner's paid entitlement expires (for example, once a cancelled Yearly subscription's
+   paid period has run out),
+   the band's operating features and **the ability to start a band ensemble** are restricted, but band
+   data already stored is not deleted arbitrarily, as provided in Article 9. It is restored immediately
+   if the owner purchases again. **A Lifetime holder's entitlement does not expire.**
 
 ## 9. Retention of User Data
 
-1. **Score lists, annotations, and timing data created by a user are not deleted when a paid
-   entitlement is absent or has expired.** Some features may lock, but the data remains and becomes
+1. **Score lists, annotations, timing data, and band data created by a user are not deleted when a
+   paid entitlement is absent or has expired.** Some features may lock, but the data remains and becomes
    available again immediately upon purchase.
 2. Where a user requests account deletion or uninstalls the App, data is handled according to its
    storage location as set out in the [Privacy Policy]({{ '/en/privacy/' | relative_url }}).
