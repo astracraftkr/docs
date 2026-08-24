@@ -1,8 +1,8 @@
 ---
 title: ScoreCue 최종 사용자 사용권 계약 (EULA)
 permalink: /ko/eula/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: ScoreCue 소프트웨어의 사용권 범위와 제한
 lang: ko
 alt: /en/eula/

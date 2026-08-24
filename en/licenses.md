@@ -1,8 +1,8 @@
 ---
 title: ScoreCue Open Source Notices
 permalink: /en/licenses/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: Third-party open source components included in ScoreCue and their licenses
 lang: en
 alt: /ko/licenses/

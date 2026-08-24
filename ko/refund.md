@@ -1,7 +1,7 @@
 ---
 title: ScoreCue 결제 · 환불 정책
 permalink: /ko/refund/
-effective: 2026-07-30
+effective: 2026-08-25
 updated: 2026-08-25
 description: ScoreCue의 상품 구성, 구독 해지 방법, 환불 요청 절차
 lang: ko

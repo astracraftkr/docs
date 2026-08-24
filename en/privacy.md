@@ -1,8 +1,8 @@
 ---
 title: ScoreCue Privacy Policy
 permalink: /en/privacy/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: What ScoreCue collects, where it is stored, and how to delete it
 lang: en
 alt: /ko/privacy/

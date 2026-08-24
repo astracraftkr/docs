@@ -1,7 +1,7 @@
 ---
 title: ScoreCue 이용약관
 permalink: /ko/terms/
-effective: 2026-07-30
+effective: 2026-08-25
 updated: 2026-08-25
 description: ScoreCue 악보 뷰어 앱의 이용약관
 lang: ko
@@ -181,4 +181,4 @@ alt: /en/terms/
 
 ## 부칙
 
-본 약관은 2026년 7월 30일부터 시행합니다.
+본 약관은 2026년 8월 25일부터 시행합니다.

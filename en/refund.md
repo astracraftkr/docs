@@ -1,7 +1,7 @@
 ---
 title: ScoreCue Payment & Refund Policy
 permalink: /en/refund/
-effective: 2026-07-30
+effective: 2026-08-25
 updated: 2026-08-25
 description: ScoreCue products, how to cancel a subscription, and how to request a refund
 lang: en

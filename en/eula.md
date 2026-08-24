@@ -1,8 +1,8 @@
 ---
 title: ScoreCue End User License Agreement (EULA)
 permalink: /en/eula/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: Scope and limits of the license to use the ScoreCue software
 lang: en
 alt: /ko/eula/

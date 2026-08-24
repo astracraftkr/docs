@@ -1,7 +1,7 @@
 ---
 title: ScoreCue Terms of Service
 permalink: /en/terms/
-effective: 2026-07-30
+effective: 2026-08-25
 updated: 2026-08-25
 description: Terms of service for the ScoreCue sheet music app
 lang: en
@@ -210,4 +210,4 @@ and timings created with the App belong to the user.
 
 ## Addendum
 
-These Terms take effect on 30 July 2026.
+These Terms take effect on 25 August 2026.

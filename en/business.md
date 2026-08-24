@@ -1,8 +1,8 @@
 ---
 title: Business Information
 permalink: /en/business/
-effective: 2026-08-15
-updated: 2026-08-15
+effective: 2026-08-25
+updated: 2026-08-25
 description: Legal business details and customer contact for ScoreCue
 lang: en
 alt: /ko/business/

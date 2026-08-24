@@ -1,8 +1,8 @@
 ---
 title: ScoreCue 오픈소스 라이선스 고지
 permalink: /ko/licenses/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: ScoreCue에 포함된 제3자 오픈소스 구성요소와 라이선스 목록
 lang: ko
 alt: /en/licenses/

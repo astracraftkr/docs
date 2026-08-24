@@ -1,8 +1,8 @@
 ---
 title: ScoreCue 개인정보처리방침
 permalink: /ko/privacy/
-effective: 2026-07-30
-updated: 2026-08-14
+effective: 2026-08-25
+updated: 2026-08-25
 description: ScoreCue가 수집하는 정보, 저장 위치, 삭제 방법
 lang: ko
 alt: /en/privacy/

@@ -1,8 +1,8 @@
 ---
 title: 사업자 정보
 permalink: /ko/business/
-effective: 2026-08-15
-updated: 2026-08-15
+effective: 2026-08-25
+updated: 2026-08-25
 description: ScoreCue를 제공하는 사업자의 정보와 고객 문의 창구
 lang: ko
 alt: /en/business/
