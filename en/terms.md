@@ -41,10 +41,11 @@ each user.
    same position together.
 7. **Band** — a group in the App's community feature, including its roster, events, announcements,
    and shared setlists.
-8. **Paid entitlements** — rights granted to a user's account through purchase, in two kinds.
-   **Both products (Pro Lifetime and Pro Yearly) grant both of them.**
-   - **Pro entitlement** — on-device features (unlimited tempo sync, A-B loop, annotated PDF export)
-   - **Community entitlement** — **hosting (opening) ensemble sessions**, and creating and running a band
+8. **Paid entitlement** — the rights granted to a user's account through purchase. **Both products
+   (Pro Lifetime and Pro Yearly) grant the same scope**, which covers all of:
+   - on-device features: unlimited tempo sync, A-B loop, annotated PDF export
+   - **hosting (opening) ensemble sessions**
+   - creating and running a band
      (posting events and announcements)
 
 ## 3. Publication and Changes to These Terms
@@ -83,7 +84,7 @@ each user.
    - **Tempo sync playback for 3 pieces** (regardless of band membership)
 2. Requires a paid entitlement:
    - Unlimited tempo sync playback, A-B loop, annotated PDF export (Pro entitlement)
-   - **Opening (hosting) an ensemble session**, and creating and running a band (Community entitlement)
+   - **Opening (hosting) an ensemble session**, and creating and running a band
 3. **Opening an ensemble session** requires sign-in and is provided as follows.
    - Signed-in free users: **30 days from the first session you open** (the 3-piece tempo sync limit
      still applies)
@@ -104,18 +105,18 @@ each store.
 
 <div class="table-wrap" markdown="1">
 
-| Product | Type | Pro entitlement | Community entitlement |
-|---|---|---|---|
-| Pro Lifetime | One-time purchase (no expiry) | ✓ | **✓ permanently** |
-| Pro Yearly | Auto-renewing annual subscription (2-week free trial) | ✓ | **✓ while subscribed** |
+| Product | Type | Paid entitlement |
+|---|---|---|
+| Pro Lifetime | One-time purchase (no expiry) | **✓ permanently** |
+| Pro Yearly | Auto-renewing annual subscription (2-week free trial) | **✓ while subscribed** |
 
 </div>
 
 1. **All payments are processed by Google Play or the Apple App Store.** The Developer does not
    collect or store payment credentials such as card numbers.
 2. **Both products unlock the same scope.** What the user chooses is a payment method rather than a
-   feature set, and the Community entitlement is included in the Lifetime product **with no time
-   limit**. **Joining** a band, and **joining** an ensemble, require no purchase at all
+   feature set, and ensemble hosting and band tools are included in the Lifetime product **with no
+   time limit**. **Joining** a band, and **joining** an ensemble, require no purchase at all
    (Articles 5 and 8).
 3. **The Pro Yearly subscription includes a 2-week free trial.** The trial is offered once per store
    account and bills automatically when it ends. Cancel at least 24 hours before it ends and you are
