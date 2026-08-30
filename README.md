@@ -1,4 +1,4 @@
-# ScoreCueDoc
+# docs
 
 ScoreCue(밴드 연주자용 악보 뷰어, Android + iOS)의 **외부 공개용 사용자 가이드·문서 저장소**입니다.
 GitHub Pages(Jekyll)로 서비스하며, 7개 언어의 사용자 가이드와 앱 스토어·RevenueCat 페이월이 참조하는 약관·정책을 제공합니다.
