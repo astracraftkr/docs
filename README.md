@@ -1,25 +1,29 @@
-# ScoreCue docs
+# Astra Craft Docs
 
-ScoreCue(밴드 연주자용 악보 뷰어, Android + iOS)의 **외부 공개용 사용자 가이드·문서 저장소**입니다.
-GitHub Pages(Jekyll)로 서비스하며, 7개 언어의 사용자 가이드와 앱 스토어·RevenueCat 페이월이 참조하는 약관·정책을 제공합니다.
+여러 Astra Craft 제품의 **외부 공개용 사용자 가이드·정책 사이트 저장소**입니다.
+GitHub Pages(Jekyll)는 저장소 전체가 아니라 `docs/`만 게시합니다. 현재 공개 제품은 ScoreCue이며,
+7개 언어의 사용자 가이드와 앱 스토어·RevenueCat 페이월이 참조하는 약관·정책을 제공합니다.
 
 앱 코드 저장소: [astracraftkr/ScoreCue](https://github.com/astracraftkr/ScoreCue) (Android/iOS 서브모듈)
 
 ## 구성
 
 ```
-index.md              다국어 사용자 가이드·정책 허브 → /ScoreCue/
-_layouts/guide.html   7개 언어 공통 사용자 가이드 레이아웃
-_data/guides.yml      사용자 가이드 번역 원문
-{locale}/guide/       ko/en/ja/es/de/fr/pt-br 가이드 URL
-assets/screenshots/android/{locale}/  Android 실기기 스크린샷
-assets/screenshots/ios/{locale}/      iPadOS 스크린샷(플랫폼별 분리)
-ko/{terms,privacy,refund,eula,licenses}.md   한국어 (정본) → /ScoreCue/ko/…/
-en/{terms,privacy,refund,eula,licenses}.md   English 번역 → /ScoreCue/en/…/
-_layouts/default.html 공통 레이아웃 (page.lang으로 헤더·푸터 언어 전환)
-assets/style.css      ScoreCue 전용 스타일
-../_config.yml        docs 전체 Jekyll 설정
-../index.html         제품 목록 허브
+README.md                    저장소 운영 문서 (Pages 비공개)
+Gemfile                      로컬 미리보기 의존성 (Pages 비공개)
+notes/                       제작 메모 (Pages 비공개)
+docs/                        GitHub Pages 게시 루트
+  _config.yml                사이트 전체 Jekyll 설정
+  CNAME                      doc.astracraft.kr
+  index.html                 제품 목록 허브
+  ScoreCue/
+    index.md                 ScoreCue 다국어 허브 → /ScoreCue/
+    _layouts/                공통·가이드 레이아웃
+    _data/guides.yml         사용자 가이드 번역 원문
+    {locale}/guide/          ko/en/ja/es/de/fr/pt-br 가이드
+    assets/screenshots/android/{locale}/  Android 실기기 스크린샷
+    ko/{terms,privacy,refund,eula,licenses}.md  한국어 정본
+    en/{terms,privacy,refund,eula,licenses}.md  English 번역
 ```
 
 각 페이지는 front matter의 `permalink`로 URL을 고정한다. **스토어·RevenueCat에 등록한 뒤에는 permalink를
@@ -33,7 +37,7 @@ front matter 필드: `lang`(가이드 7개 언어, 정책 ko/en — 레이아웃
 
 ## 공개 URL
 
-GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / 루트.
+GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / `docs` 폴더.
 
 기준 URL: `https://doc.astracraft.kr/ScoreCue/`
 
@@ -67,19 +71,19 @@ GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / 루트.
 - **스토어 퍼블리셔명을 `Astra Craft`로 맞출 것.** 문서상 계약 당사자와 스토어 표기가 다르면 심사·분쟁에서
   문제가 된다. D-U-N-S·사업자등록증의 상호와도 글자 단위로 같아야 한다.
 
-> 이 저장소는 **GitHub Pages로 공개 서비스**된다. 내부 판단·미결 사항은 여기 적지 말고
-> `ScoreCue/doc/TODO.md`에 둘 것 — `_config.yml`의 `exclude`가 README를 사이트 빌드에서 빼 주지만,
-> 저장소가 공개면 github.com에서는 그대로 보인다.
+> `docs/` 아래의 파일은 **GitHub Pages로 공개 서비스**된다. 내부 판단·미결 사항은 게시 루트 밖의
+> 이 README나 앱 저장소의 `doc/TODO.md`에 둔다. 단, 저장소 자체가 공개라면 GitHub에서는 여전히
+> 읽을 수 있으므로 비밀키·개인정보는 저장소 어디에도 기록하지 않는다.
 - **만 14세 미만 계정 금지**로 작성했다(개인정보보호법상 법정대리인 동의 절차를 두지 않는 선택).
   아동 대상 정책을 바꾸려면 약관 제4조·방침 7항을 함께 고쳐야 한다.
 - 개인정보처리방침의 보관 기간 중 Analytics 14개월·Crashlytics 90일은 각 서비스의 기본 설정값이다.
   Firebase 콘솔에서 값을 바꿨다면 문서도 함께 수정할 것.
-- iOS 미출시 상태에서도 문서는 양 플랫폼을 함께 다룬다. 출시 계획이 달라지면 문구를 조정할 것.
+- 상세 사용자 가이드는 Android를 먼저 작성한다. iOS 문서는 앱 기능과 UI가 안정된 뒤 별도 제작한다.
 
 ## 로컬 미리보기
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --source docs
 ```
 
 Ruby/Jekyll이 없으면 GitHub Pages에 push해서 확인해도 된다(빌드 1~2분).

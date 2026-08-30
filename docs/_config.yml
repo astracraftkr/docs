@@ -8,16 +8,9 @@ data_dir: ScoreCue/_data
 plugins:
   - jekyll-redirect-from
 
-# 문서 페이지는 모두 같은 레이아웃을 쓴다.
+# 공개 문서 페이지는 모두 같은 레이아웃을 쓴다. GitHub Pages source는 /docs다.
 defaults:
   - scope:
       path: "ScoreCue"
     values:
       layout: default
-
-exclude:
-  - ScoreCue/README.md
-  - ScoreCue/assets/screenshots/README.md
-  - ScoreCue/Gemfile
-  - ScoreCue/Gemfile.lock
-  - vendor
