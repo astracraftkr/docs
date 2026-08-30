@@ -1,19 +1,23 @@
-title: ScoreCue
-description: ScoreCue 악보 뷰어의 다국어 사용자 가이드와 약관·정책
+title: Astra Craft Docs
+description: Astra Craft 제품의 사용자 가이드와 정책 문서
 baseurl: ""
 url: "https://doc.astracraft.kr"
 lang: ko
+layouts_dir: ScoreCue/_layouts
+data_dir: ScoreCue/_data
+plugins:
+  - jekyll-redirect-from
 
 # 문서 페이지는 모두 같은 레이아웃을 쓴다.
 defaults:
   - scope:
-      path: ""
+      path: "ScoreCue"
     values:
       layout: default
 
 exclude:
-  - README.md
-  - assets/screenshots/README.md
-  - Gemfile
-  - Gemfile.lock
+  - ScoreCue/README.md
+  - ScoreCue/assets/screenshots/README.md
+  - ScoreCue/Gemfile
+  - ScoreCue/Gemfile.lock
   - vendor
