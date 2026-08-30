@@ -2,52 +2,70 @@
 layout: default
 ---
 {% assign manual = site.data.manual_ko %}
-<section class="manual-hero">
-  <div>
-    <p class="eyebrow">Android · 한국어 사용자 설명서</p>
-    <h1>연습부터 합주까지,<br>ScoreCue를 제대로 쓰는 법</h1>
-    <p class="lead">처음 악보를 가져오는 순간부터 자동 페이지 넘김, 카운트인, YouTube 싱크, 합주 세션까지 실제 사용 순서대로 안내합니다.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="{{ '/ScoreCue/ko/guide/quick-start/' | relative_url }}">5분 만에 시작하기</a>
-      <a class="button" href="#contents">전체 목차</a>
-    </div>
-    <p class="manual-platform-note">현재 설명서는 Android 앱을 기준으로 합니다. iPhone·iPad 설명서는 준비 중입니다.</p>
-  </div>
-  <figure class="manual-hero-shot">
-    <img src="{{ '/ScoreCue/assets/screenshots/android/ko/manual/library.png' | relative_url }}" alt="샘플 악보가 추가된 ScoreCue Android 홈 화면">
-    <figcaption>Android 태블릿의 실제 한국어 화면</figcaption>
-  </figure>
-</section>
-
-<section id="contents" class="manual-index">
-  <div class="manual-index-heading">
-    <p class="eyebrow">목차</p>
-    <h2>하려는 일에서 바로 시작하세요</h2>
-    <p>처음이라면 위에서 아래 순서로, 특정 기능이 궁금하다면 해당 항목만 골라 읽어도 됩니다.</p>
-  </div>
-  <div class="manual-category-grid">
+<div class="manual-shell manual-home-shell">
+  <aside class="manual-sidebar" aria-label="ScoreCue 한국어 설명서 목차">
+    <a class="manual-sidebar-home" href="{{ '/ScoreCue/ko/guide/' | relative_url }}" aria-current="page">사용 설명서 홈</a>
     {% for category in manual.categories %}
-    <section class="manual-category-card">
-      <div class="manual-category-number">{{ category.number }}</div>
-      <h3>{{ category.title }}</h3>
-      <p>{{ category.description }}</p>
-      <ol>
+    <section>
+      <h2><span>{{ category.number }}</span>{{ category.title }}</h2>
+      <ul>
         {% for item in category.items %}
-        <li><a href="{{ item.url | relative_url }}"><span>{{ item.title }}</span><small>{{ item.summary }}</small></a></li>
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
         {% endfor %}
-      </ol>
+      </ul>
     </section>
     {% endfor %}
-  </div>
-</section>
+  </aside>
 
-<aside class="manual-path-card">
-  <div>
-    <p class="eyebrow">처음 사용한다면</p>
-    <h2>가져오기 → 진행 만들기 → 재생</h2>
-    <p>이 세 단계만 끝내면 ScoreCue의 핵심인 자동 페이지 넘김을 바로 사용할 수 있습니다.</p>
-  </div>
-  <a class="button primary" href="{{ '/ScoreCue/ko/guide/quick-start/' | relative_url }}">빠른 시작 열기</a>
-</aside>
+  <div class="manual-home-content">
+    <section class="manual-hero">
+      <div>
+        <p class="eyebrow">Android · 한국어 사용자 설명서</p>
+        <h1>연습부터 합주까지,<br>ScoreCue를 제대로 쓰는 법</h1>
+        <p class="lead">처음 악보를 가져오는 순간부터 자동 페이지 넘김, 카운트인, YouTube 싱크, 합주 세션까지 실제 사용 순서대로 안내합니다.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="{{ '/ScoreCue/ko/guide/quick-start/' | relative_url }}">5분 만에 시작하기</a>
+          <a class="button" href="#contents">전체 목차</a>
+        </div>
+        <p class="manual-platform-note">현재 설명서는 Android 앱을 기준으로 합니다. iPhone·iPad 설명서는 준비 중입니다.</p>
+      </div>
+      <figure class="manual-hero-shot">
+        <img src="{{ '/ScoreCue/assets/screenshots/android/ko/manual/library.png' | relative_url }}" alt="샘플 악보가 추가된 ScoreCue Android 홈 화면">
+        <figcaption>Android 태블릿의 실제 한국어 화면</figcaption>
+      </figure>
+    </section>
 
-<aside class="support-card"><div><p class="eyebrow">찾는 답이 없나요?</p><h2>사용 환경과 증상을 알려 주세요</h2><p>기기 모델, Android 버전, 문제가 생긴 화면을 함께 보내면 더 빠르게 확인할 수 있습니다.</p></div><a class="button primary" href="mailto:support@astracraft.kr">support@astracraft.kr</a></aside>
+    <section id="contents" class="manual-index">
+      <div class="manual-index-heading">
+        <p class="eyebrow">목차</p>
+        <h2>하려는 일에서 바로 시작하세요</h2>
+        <p>처음이라면 위에서 아래 순서로, 특정 기능이 궁금하다면 해당 항목만 골라 읽어도 됩니다.</p>
+      </div>
+      <div class="manual-category-grid">
+        {% for category in manual.categories %}
+        <section class="manual-category-card">
+          <div class="manual-category-number">{{ category.number }}</div>
+          <h3>{{ category.title }}</h3>
+          <p>{{ category.description }}</p>
+          <ol>
+            {% for item in category.items %}
+            <li><a href="{{ item.url | relative_url }}"><span>{{ item.title }}</span><small>{{ item.summary }}</small></a></li>
+            {% endfor %}
+          </ol>
+        </section>
+        {% endfor %}
+      </div>
+    </section>
+
+    <aside class="manual-path-card">
+      <div>
+        <p class="eyebrow">처음 사용한다면</p>
+        <h2>가져오기 → 진행 만들기 → 재생</h2>
+        <p>이 세 단계만 끝내면 ScoreCue의 핵심인 자동 페이지 넘김을 바로 사용할 수 있습니다.</p>
+      </div>
+      <a class="button primary" href="{{ '/ScoreCue/ko/guide/quick-start/' | relative_url }}">빠른 시작 열기</a>
+    </aside>
+
+    <aside class="support-card"><div><p class="eyebrow">찾는 답이 없나요?</p><h2>사용 환경과 증상을 알려 주세요</h2><p>기기 모델, Android 버전, 문제가 생긴 화면을 함께 보내면 더 빠르게 확인할 수 있습니다.</p></div><a class="button primary" href="mailto:support@astracraft.kr">support@astracraft.kr</a></aside>
+  </div>
+</div>

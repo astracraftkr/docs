@@ -11,7 +11,7 @@ hero_image: /ScoreCue/assets/screenshots/android/ko/viewer.png
 hero_alt: 재생 컨트롤이 표시된 ScoreCue Android 악보 뷰어
 hero_caption: 악보의 빈 곳을 탭하면 상단 퀵 메뉴와 하단 재생 컨트롤이 나타납니다.
 prev_url: /ScoreCue/ko/guide/timing-edit/
-prev_title: 진행 세밀하게 편집
+prev_title: 곡 진행 편집 완전 안내
 next_url: /ScoreCue/ko/guide/count-in/
 next_title: 카운트인 설정
 ---
@@ -54,4 +54,3 @@ next_title: 카운트인 설정
 - **YouTube**: 연결한 YouTube 영상 재생
 
 <p class="warning">오디오나 YouTube가 선택되어 있어도 주소 또는 파일이 악보 속성에 연결되지 않았다면 소리가 나지 않습니다.</p>
-

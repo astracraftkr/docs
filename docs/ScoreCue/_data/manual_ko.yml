@@ -15,7 +15,7 @@ categories:
     items:
       - { title: "자동 분석으로 만들기", summary: "마디·템포 인식 결과 확인", url: "/ScoreCue/ko/guide/timing-auto/" }
       - { title: "직접 탭해서 만들기", summary: "실제 연주에 맞춰 페이지 시간 기록", url: "/ScoreCue/ko/guide/timing-manual/" }
-      - { title: "진행 세밀하게 편집", summary: "마디, 템포 변화, 페르마타 보정", url: "/ScoreCue/ko/guide/timing-edit/" }
+      - { title: "곡 진행 편집 완전 안내", summary: "모든 진행 기호와 실제 연주 순서 교정", url: "/ScoreCue/ko/guide/timing-edit/" }
   - number: "04"
     title: "재생과 싱크"
     description: "자동 넘김을 시작하고 메트로놈·음원·영상과 맞춥니다."

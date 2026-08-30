@@ -146,6 +146,10 @@ figcaption { padding: 12px 4px 0; color: var(--muted); font-size: .78rem; }
 .manual-path-card p:last-child { margin: 0; color: var(--muted); }
 
 .manual-shell { display: grid; grid-template-columns: 248px minmax(0, 820px); justify-content: center; gap: 64px; padding: 54px 0 96px; }
+.manual-home-shell { grid-template-columns: 248px minmax(0, 1fr); justify-content: stretch; gap: 48px; padding-top: 34px; }
+.manual-home-content { min-width: 0; }
+.manual-home-shell .manual-hero { min-height: 560px; gap: 38px; padding: 28px 0 70px; }
+.manual-home-shell .manual-hero h1 { font-size: clamp(2.5rem, 4.2vw, 4.45rem); }
 .manual-sidebar { position: sticky; top: 20px; align-self: start; max-height: calc(100vh - 40px); padding-right: 18px; overflow-y: auto; scrollbar-width: thin; }
 .manual-sidebar-home { display: block; margin-bottom: 24px; padding: 12px 14px; border-radius: 12px; color: white; background: var(--violet); text-decoration: none; font-size: .88rem; font-weight: 700; }
 .manual-sidebar section + section { margin-top: 22px; }
@@ -215,6 +219,8 @@ footer.site p { margin: 4px 0 0; }
   .section-nav strong { display: none; }
   .policy-section { gap: 28px; }
   .manual-shell { grid-template-columns: 1fr; gap: 30px; }
+  .manual-home-shell { grid-template-columns: 1fr; padding-top: 30px; }
+  .manual-home-shell .manual-hero { min-height: 0; padding-top: 20px; }
   .manual-sidebar { position: static; max-height: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: white; }
   .manual-sidebar-home { grid-column: 1 / -1; margin: 0; }
   .manual-sidebar section + section { margin-top: 0; }

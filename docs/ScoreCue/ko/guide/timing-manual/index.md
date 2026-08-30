@@ -10,7 +10,7 @@ permalink: /ScoreCue/ko/guide/timing-manual/
 prev_url: /ScoreCue/ko/guide/timing-auto/
 prev_title: 자동 분석으로 진행 만들기
 next_url: /ScoreCue/ko/guide/timing-edit/
-next_title: 진행 세밀하게 편집
+next_title: 곡 진행 편집 완전 안내
 ---
 
 ## 탭 기록 방식이란
@@ -45,4 +45,3 @@ next_title: 진행 세밀하게 편집
 루바토나 긴 페르마타가 있는 곡은 원곡 음원과 함께 기록하세요. 메트로놈으로 기록하면 일정한 템포가 강제되어 실제 흐름과 달라질 수 있습니다. 구간마다 템포가 명확히 바뀌는 곡은 자동 분석 후 [진행 편집]({{ '/ScoreCue/ko/guide/timing-edit/' | relative_url }})에서 템포 구간을 나누는 방법도 좋습니다.
 
 <p class="warning">Bluetooth 스피커나 이어폰은 지연이 생길 수 있습니다. 탭 기록 전에 기기 출력 지연을 확인하고, 필요한 경우 설정의 싱크 지연 보정을 먼저 맞추세요.</p>
-
