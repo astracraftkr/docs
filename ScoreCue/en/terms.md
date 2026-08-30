@@ -2,8 +2,8 @@
 title: ScoreCue Terms of Service
 permalink: /ScoreCue/en/terms/
 redirect_from: /en/terms/
-effective: 2026-08-25
-updated: 2026-08-25
+effective: 2026-08-30
+updated: 2026-08-30
 description: Terms of service for the ScoreCue sheet music app
 lang: en
 alt: /ScoreCue/ko/terms/
@@ -45,7 +45,7 @@ each user.
 8. **Paid entitlement** — the rights granted to a user's account through purchase. **Both products
    (Pro Lifetime and Pro Yearly) grant the same scope**, which covers all of:
    - on-device features: unlimited tempo sync, A-B loop, annotated PDF export
-   - **hosting (opening) ensemble sessions**
+   - unlimited ensemble session time
    - creating and running a band
      (posting events and announcements)
 
@@ -79,20 +79,20 @@ each user.
 1. Provided free of charge:
    - Viewing scores, annotating (drawing and saving), the metronome
    - Creating and saving timings (no limit on the number)
-   - **Joining** an ensemble session — no sign-in required and no limit on how often
+   - Creating ensemble sessions — no limit on count for signed-in free users
    - Joining a band; viewing rosters, events, announcements, and shared setlists; responding to
      events; participating in availability polls
    - **Tempo sync playback for 3 pieces** (regardless of band membership)
 2. Requires a paid entitlement:
    - Unlimited tempo sync playback, A-B loop, annotated PDF export (Pro entitlement)
-   - **Opening (hosting) an ensemble session**, and creating and running a band
-3. **Opening an ensemble session** requires sign-in and is provided as follows.
-   - Signed-in free users: **30 days from the first session you open** (the 3-piece tempo sync limit
-     still applies)
-   - Holders of a paid entitlement (Lifetime and Yearly alike): no limit
+   - Unlimited ensemble session time, and creating and running a band
+3. Opening an ensemble session requires sign-in. Session time is provided as follows.
+   - Free users: **a continuous 30-minute window from the first session start each day**, whether
+     hosting or joining
+   - Holders of a paid entitlement (Lifetime and Yearly alike): no time limit
+   - Leaving or disconnecting does not pause or reset the free 30-minute window.
    - Within a band, **any member may start a band ensemble as long as the band's owner holds a paid
      entitlement.** If the owner's entitlement expires, starting a band ensemble is restricted.
-   - **Joining** an ensemble is always free, regardless of the above.
 4. A free playback slot is **taken when playback of a piece begins**, and a piece that holds a slot
    may be played any number of times. **A slot that has been taken cannot be swapped to another
    piece.** Deleting the score returns its slot.
@@ -116,8 +116,8 @@ each store.
 1. **All payments are processed by Google Play or the Apple App Store.** The Developer does not
    collect or store payment credentials such as card numbers.
 2. **Both products unlock the same scope.** What the user chooses is a payment method rather than a
-   feature set, and ensemble hosting and band tools are included in the Lifetime product **with no
-   time limit**. **Joining** a band, and **joining** an ensemble, require no purchase at all
+   feature set, and unlimited ensemble time and band tools are included in the Lifetime product
+   **with no time limit**. **Joining** a band requires no purchase
    (Articles 5 and 8).
 3. **The Pro Yearly subscription includes a 2-week free trial.** The trial is offered once per store
    account and bills automatically when it ends. Cancel at least 24 hours before it ends and you are

@@ -2,8 +2,8 @@
 title: ScoreCue Payment & Refund Policy
 permalink: /ScoreCue/en/refund/
 redirect_from: /en/refund/
-effective: 2026-08-25
-updated: 2026-08-25
+effective: 2026-08-30
+updated: 2026-08-30
 description: ScoreCue products, how to cancel a subscription, and how to request a refund
 lang: en
 alt: /ScoreCue/ko/refund/
@@ -18,17 +18,17 @@ alt: /ScoreCue/ko/refund/
 
 | Product | Type | What it unlocks |
 |---|---|---|
-| Pro Lifetime | One-time purchase (no expiry) | Unlimited tempo sync, A-B loop, annotated PDF export,<br>opening ensembles, creating and running a band — **permanently, with no time limit** |
+| Pro Lifetime | One-time purchase (no expiry) | Unlimited tempo sync, A-B loop, annotated PDF export,<br>unlimited ensemble time, creating and running a band — **permanently, with no time limit** |
 | Pro Yearly | Auto-renewing annual subscription (2-week free trial) | **The same scope**, for as long as the subscription is active |
 
 </div>
 
 - Prices are those shown on the App's purchase screen and in each store. Displayed amounts may differ by
   country under each store's pricing policy.
-- **Joining an ensemble is always free.** Payment is only required to *open* a session, so one purchase
-  lets every other member join the ensembles that person hosts.
+- Free users may create any number of sessions, but hosts and participants share the same continuous
+  30-minute window beginning with their first session start each day. Leaving does not pause it.
 - **Both products unlock the same features.** What you choose is not a feature set but a **payment
-  method** — pay each year, or pay once. Opening ensembles and running a band are included in the
+  method** — pay each year, or pay once. Unlimited ensemble time and running a band are included in the
   Lifetime product **with no time limit**.
 - **The Yearly subscription includes a 2-week free trial.** The trial is offered once per store
   account and bills automatically when it ends. Cancel at least 24 hours before it ends and you are
@@ -42,10 +42,10 @@ alt: /ScoreCue/ko/refund/
   turns the renewal off for you and iOS takes you to the store's subscription screen. **If you do not
   turn it off, the subscription keeps renewing, so please check.** The remaining subscription period
   stays usable.
-- **What is free**: viewing scores, annotating, the metronome, creating and saving timings, and
-  joining ensemble sessions remain usable without signing in, and tempo sync playback is free for
-  **3 pieces**. Signed-in free users can join bands and view or respond within them at no cost, and can
-  **open ensembles for 30 days from the first session they open** (the 3-piece limit still applies).
+- **What is free**: viewing scores, annotating, the metronome, and creating and saving timings remain
+  usable without signing in, and tempo sync playback is free for **3 pieces**. Ensemble use is free
+  for a continuous **30 minutes from the first session start each day**, whether hosting or joining;
+  signed-in free users may create any number of sessions.
 - Paid entitlements are granted **to your account**. There is no device limit, and a purchase on either
   Android or iOS unlocks the App on the other for the same signed-in account.
 
