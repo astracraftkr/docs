@@ -1,0 +1,279 @@
+ko:
+  eyebrow: "공식 사용자 가이드"
+  title: "ScoreCue 시작하기"
+  lead: "PDF 악보를 가져오고, 연주 흐름을 설정하고, 손을 떼지 않은 채 다음 마디로 이동하세요."
+  start: "빠른 시작"
+  compare: "플랫폼 차이"
+  on_this_page: "이 페이지에서"
+  quick_title: "4단계로 시작하기"
+  steps:
+    - { title: "악보 가져오기", body: "+ 버튼을 눌러 기기에 저장된 PDF를 선택합니다." }
+    - { title: "타이밍 만들기", body: "악보 속성에서 자동 분석하거나 직접 마디 타이밍을 기록합니다." }
+    - { title: "연주 시작", body: "재생을 누르면 설정한 템포에 맞춰 악보가 자동으로 이동합니다." }
+    - { title: "함께 맞추기", body: "합주 세션을 만들거나 참여해 여러 기기의 진행을 동기화합니다." }
+  library_kicker: "라이브러리"
+  library_title: "악보를 한곳에 정리"
+  library_body: "홈 화면에서 최근 악보, 셋리스트, 전체 악보를 바로 찾을 수 있습니다."
+  library_points: ["오른쪽 아래 + 버튼으로 PDF 가져오기", "검색과 정렬로 악보 빠르게 찾기", "셋리스트를 만들어 공연 순서대로 재생"]
+  library_alt: "한국어 ScoreCue Android 라이브러리 화면"
+  viewer_kicker: "악보 보기"
+  viewer_title: "연주 중에는 악보만"
+  viewer_body: "악보를 열면 화면을 넓게 사용합니다. 아래 컨트롤에서 재생, 이전·다음, 반복과 세부 기능을 사용할 수 있습니다."
+  viewer_points: ["재생 버튼으로 자동 페이지 넘김 시작", "화면을 탭해 컨트롤 표시·숨김", "필기, 타이밍 편집, 메트로놈은 더보기 메뉴에서 실행"]
+  viewer_alt: "ScoreCue Android 악보 연주 화면"
+  settings_kicker: "설정"
+  settings_title: "내 연주 방식에 맞추기"
+  settings_body: "페달 키, 카운트인, 화면, 데이터와 계정 설정을 한곳에서 조정합니다."
+  settings_points: ["페달의 다음·이전·시작/정지 키 학습", "자동 재생 전 카운트인 마디 수 선택", "화면 유지와 표시 옵션 조정"]
+  settings_alt: "한국어 ScoreCue Android 설정 화면"
+  platform_title: "Android와 iPad에서 달라지는 점"
+  platform_intro: "핵심 기능과 파일 형식은 같고, 조작 방식은 각 플랫폼에 자연스럽게 맞춰져 있습니다."
+  android_title: "큰 화면과 자유로운 파일 관리"
+  android_body: "태블릿 화면에 맞춘 카드형 라이브러리와 설정 패널을 사용합니다."
+  android_points: ["+ 버튼에서 시스템 파일 선택기 열기", "하드웨어 뒤로가기와 Android 공유 메뉴", "블루투스 페달 키를 설정에서 학습"]
+  ios_title: "iPad다운 사이드바와 Apple Pencil"
+  ios_body: "iPad에서는 사이드바, 시스템 파일 앱, 키보드 단축키를 활용합니다."
+  ios_points: ["파일 앱에서 PDF 가져오기", "Apple Pencil로 자연스럽게 필기", "⌘S·⌘I·⌘E·⌘L 단축키 지원"]
+  help_kicker: "도움이 필요하신가요?"
+  help_title: "연주를 멈추지 말고 문의하세요"
+  help_body: "사용 중 문제가 생기면 기기 종류와 증상을 함께 보내 주세요."
+
+en:
+  eyebrow: "Official user guide"
+  title: "Get started with ScoreCue"
+  lead: "Import a PDF score, set its timing, and move through the music without taking your hands off your instrument."
+  start: "Quick start"
+  compare: "Platform differences"
+  on_this_page: "On this page"
+  quick_title: "Start in four steps"
+  steps:
+    - { title: "Import a score", body: "Tap + and choose a PDF stored on your device." }
+    - { title: "Create timing", body: "Analyze the score automatically or record bar timing yourself." }
+    - { title: "Start playing", body: "Press Play and the score advances at the tempo you set." }
+    - { title: "Play together", body: "Create or join an Ensemble session to sync progress across devices." }
+  library_kicker: "Library"
+  library_title: "Keep every score in one place"
+  library_body: "Find recent scores, setlists, and your full library from the home screen."
+  library_points: ["Import a PDF with the + button", "Find music quickly with search and sorting", "Build setlists in performance order"]
+  library_alt: "ScoreCue Android library in English"
+  viewer_kicker: "Viewer"
+  viewer_title: "Nothing but the score while you play"
+  viewer_body: "The viewer gives your music the full screen. Use the bottom controls for playback, navigation, repeat, and more."
+  viewer_points: ["Start automatic page turns with Play", "Tap the score to show or hide controls", "Open More for annotation, timing, and metronome tools"]
+  viewer_alt: "ScoreCue Android score viewer"
+  settings_kicker: "Settings"
+  settings_title: "Fit ScoreCue to the way you play"
+  settings_body: "Configure pedal keys, count-in, screen behavior, data, and account settings in one place."
+  settings_points: ["Teach pedal keys for next, previous, and start/stop", "Choose the count-in before auto-play", "Adjust screen-on and display options"]
+  settings_alt: "ScoreCue Android settings in English"
+  platform_title: "What changes on Android and iPad"
+  platform_intro: "Core features and file formats are shared; navigation follows each platform’s conventions."
+  android_title: "Large-screen layout and open file access"
+  android_body: "Android uses a card-based library and a tablet-friendly settings panel."
+  android_points: ["Open the system file picker from +", "Use Android Back and the system share sheet", "Teach Bluetooth pedal keys in Settings"]
+  ios_title: "iPad sidebar and Apple Pencil"
+  ios_body: "iPad uses a native sidebar, the Files app, and keyboard shortcuts."
+  ios_points: ["Import PDFs through Files", "Annotate naturally with Apple Pencil", "Use ⌘S, ⌘I, ⌘E, and ⌘L shortcuts"]
+  help_kicker: "Need help?"
+  help_title: "Keep the music moving"
+  help_body: "Tell us your device model and what happened, and we’ll help you get back to playing."
+
+ja:
+  eyebrow: "公式ユーザーガイド"
+  title: "ScoreCueを始める"
+  lead: "PDF楽譜を読み込み、タイミングを設定して、楽器から手を離さずに演奏を進めましょう。"
+  start: "クイックスタート"
+  compare: "端末ごとの違い"
+  on_this_page: "このページの内容"
+  quick_title: "4ステップで開始"
+  steps:
+    - { title: "楽譜を読み込む", body: "+をタップし、端末に保存したPDFを選びます。" }
+    - { title: "タイミングを作る", body: "自動解析するか、小節のタイミングを自分で記録します。" }
+    - { title: "演奏を始める", body: "再生すると、設定したテンポで楽譜が自動的に進みます。" }
+    - { title: "一緒に演奏する", body: "アンサンブルを作成または参加し、複数端末を同期します。" }
+  library_kicker: "ライブラリ"
+  library_title: "すべての楽譜を一か所に"
+  library_body: "ホーム画面から最近の楽譜、セットリスト、全楽譜をすぐに開けます。"
+  library_points: ["右下の+からPDFを読み込む", "検索と並べ替えで楽譜をすばやく探す", "本番順のセットリストを作る"]
+  library_alt: "日本語のScoreCue Androidライブラリ画面"
+  viewer_kicker: "楽譜ビューア"
+  viewer_title: "演奏中は楽譜だけに集中"
+  viewer_body: "楽譜を画面いっぱいに表示し、下部の操作で再生、移動、リピートなどを行います。"
+  viewer_points: ["再生で自動ページめくりを開始", "楽譜をタップして操作を表示・非表示", "その他から書き込み、タイミング、メトロノームを開く"]
+  viewer_alt: "ScoreCue Android楽譜ビューア"
+  settings_kicker: "設定"
+  settings_title: "自分の演奏スタイルに合わせる"
+  settings_body: "ペダルキー、カウントイン、画面、データ、アカウントをまとめて設定できます。"
+  settings_points: ["次へ・前へ・開始/停止をペダルに登録", "自動再生前のカウントインを選択", "画面表示とスリープ防止を調整"]
+  settings_alt: "日本語のScoreCue Android設定画面"
+  platform_title: "AndroidとiPadの違い"
+  platform_intro: "主要機能とファイル形式は同じで、操作は各OSに合わせて最適化されています。"
+  android_title: "大画面と柔軟なファイル管理"
+  android_body: "カード型ライブラリとタブレット向け設定パネルを使います。"
+  android_points: ["+からシステムのファイル選択を開く", "Androidの戻る操作と共有メニュー", "設定でBluetoothペダルを登録"]
+  ios_title: "iPadのサイドバーとApple Pencil"
+  ios_body: "iPadではサイドバー、ファイルApp、キーボードショートカットを活用します。"
+  ios_points: ["ファイルAppからPDFを読み込む", "Apple Pencilで自然に書き込む", "⌘S・⌘I・⌘E・⌘Lに対応"]
+  help_kicker: "お困りですか？"
+  help_title: "演奏を止めずにご相談ください"
+  help_body: "端末の種類と症状を添えてお問い合わせください。"
+
+es:
+  eyebrow: "Guía oficial del usuario"
+  title: "Primeros pasos con ScoreCue"
+  lead: "Importa una partitura PDF, define su tiempo y avanza sin apartar las manos del instrumento."
+  start: "Inicio rápido"
+  compare: "Diferencias por plataforma"
+  on_this_page: "En esta página"
+  quick_title: "Empieza en cuatro pasos"
+  steps:
+    - { title: "Importa una partitura", body: "Toca + y elige un PDF guardado en tu dispositivo." }
+    - { title: "Crea la temporización", body: "Analiza la partitura o registra manualmente los compases." }
+    - { title: "Empieza a tocar", body: "Pulsa Reproducir y la partitura avanzará al tempo elegido." }
+    - { title: "Tocad juntos", body: "Crea o únete a una sesión de Ensamble para sincronizar dispositivos." }
+  library_kicker: "Biblioteca"
+  library_title: "Todas tus partituras en un solo lugar"
+  library_body: "Accede a partituras recientes, repertorios y toda la biblioteca desde la pantalla principal."
+  library_points: ["Importa PDF con el botón +", "Usa búsqueda y ordenación", "Crea repertorios en el orden del concierto"]
+  library_alt: "Biblioteca de ScoreCue Android en español"
+  viewer_kicker: "Visor"
+  viewer_title: "Solo la partitura mientras tocas"
+  viewer_body: "El visor dedica la pantalla a la música. Los controles inferiores gestionan reproducción, navegación y repetición."
+  viewer_points: ["Inicia el paso automático con Reproducir", "Toca la partitura para mostrar u ocultar controles", "Abre Más para anotaciones, tiempo y metrónomo"]
+  viewer_alt: "Visor de partituras de ScoreCue Android"
+  settings_kicker: "Ajustes"
+  settings_title: "Adapta ScoreCue a tu forma de tocar"
+  settings_body: "Configura el pedal, la cuenta previa, la pantalla, los datos y la cuenta."
+  settings_points: ["Asigna siguiente, anterior e inicio/parada al pedal", "Elige la cuenta previa", "Ajusta la pantalla y el modo siempre activo"]
+  settings_alt: "Ajustes de ScoreCue Android en español"
+  platform_title: "Diferencias entre Android y iPad"
+  platform_intro: "Las funciones y formatos son iguales; la navegación respeta las convenciones de cada sistema."
+  android_title: "Pantalla grande y acceso abierto a archivos"
+  android_body: "Android usa una biblioteca de tarjetas y ajustes adaptados a tabletas."
+  android_points: ["Selector de archivos del sistema desde +", "Botón Atrás y menú Compartir de Android", "Aprendizaje de pedal Bluetooth en Ajustes"]
+  ios_title: "Barra lateral y Apple Pencil en iPad"
+  ios_body: "iPad aprovecha la barra lateral, Archivos y los atajos de teclado."
+  ios_points: ["Importa PDF mediante Archivos", "Anota con Apple Pencil", "Atajos ⌘S, ⌘I, ⌘E y ⌘L"]
+  help_kicker: "¿Necesitas ayuda?"
+  help_title: "Que la música no se detenga"
+  help_body: "Indica el modelo del dispositivo y lo ocurrido para que podamos ayudarte."
+
+de:
+  eyebrow: "Offizielles Benutzerhandbuch"
+  title: "Erste Schritte mit ScoreCue"
+  lead: "Importiere eine PDF-Partitur, lege das Timing fest und blättere weiter, ohne die Hände vom Instrument zu nehmen."
+  start: "Schnellstart"
+  compare: "Plattformunterschiede"
+  on_this_page: "Auf dieser Seite"
+  quick_title: "In vier Schritten starten"
+  steps:
+    - { title: "Partitur importieren", body: "Tippe auf + und wähle eine PDF-Datei auf deinem Gerät." }
+    - { title: "Timing erstellen", body: "Analysiere die Partitur automatisch oder erfasse die Takte selbst." }
+    - { title: "Wiedergabe starten", body: "Tippe auf Wiedergabe; die Partitur folgt dem gewählten Tempo." }
+    - { title: "Zusammen spielen", body: "Erstelle eine Ensemble-Sitzung oder tritt ihr bei, um Geräte zu synchronisieren." }
+  library_kicker: "Bibliothek"
+  library_title: "Alle Partituren an einem Ort"
+  library_body: "Öffne zuletzt verwendete Partituren, Setlisten und die gesamte Bibliothek vom Startbildschirm."
+  library_points: ["PDF über die Schaltfläche + importieren", "Mit Suche und Sortierung schnell finden", "Setlisten in Auftrittsreihenfolge erstellen"]
+  library_alt: "ScoreCue-Android-Bibliothek auf Deutsch"
+  viewer_kicker: "Ansicht"
+  viewer_title: "Beim Spielen zählt nur die Partitur"
+  viewer_body: "Die Partitur nutzt den ganzen Bildschirm. Unten steuerst du Wiedergabe, Navigation, Wiederholung und mehr."
+  viewer_points: ["Automatisches Blättern mit Wiedergabe starten", "Zum Ein- und Ausblenden der Steuerung tippen", "Unter Mehr Anmerkungen, Timing und Metronom öffnen"]
+  viewer_alt: "ScoreCue-Android-Partituransicht"
+  settings_kicker: "Einstellungen"
+  settings_title: "ScoreCue an deine Spielweise anpassen"
+  settings_body: "Pedaltasten, Einzählen, Bildschirm, Daten und Konto zentral konfigurieren."
+  settings_points: ["Weiter, Zurück und Start/Stopp am Pedal anlernen", "Einzähltakte vor der Wiedergabe wählen", "Bildschirm- und Anzeigeoptionen anpassen"]
+  settings_alt: "ScoreCue-Android-Einstellungen auf Deutsch"
+  platform_title: "Unterschiede zwischen Android und iPad"
+  platform_intro: "Kernfunktionen und Dateiformate sind gleich; die Bedienung folgt der jeweiligen Plattform."
+  android_title: "Großes Layout und freier Dateizugriff"
+  android_body: "Android nutzt eine Kartenbibliothek und ein für Tablets optimiertes Einstellungsfenster."
+  android_points: ["System-Dateiauswahl über +", "Android-Zurück und System-Teilen", "Bluetooth-Pedal in den Einstellungen anlernen"]
+  ios_title: "iPad-Seitenleiste und Apple Pencil"
+  ios_body: "Auf dem iPad nutzt ScoreCue Seitenleiste, Dateien-App und Tastaturkurzbefehle."
+  ios_points: ["PDFs über Dateien importieren", "Mit Apple Pencil schreiben", "Kurzbefehle ⌘S, ⌘I, ⌘E und ⌘L"]
+  help_kicker: "Brauchst du Hilfe?"
+  help_title: "Damit die Musik weitergeht"
+  help_body: "Sende uns Gerätemodell und Fehlerbeschreibung, damit wir helfen können."
+
+fr:
+  eyebrow: "Guide d’utilisation officiel"
+  title: "Bien démarrer avec ScoreCue"
+  lead: "Importez une partition PDF, définissez son minutage et avancez sans retirer les mains de votre instrument."
+  start: "Démarrage rapide"
+  compare: "Différences entre plateformes"
+  on_this_page: "Sur cette page"
+  quick_title: "Démarrer en quatre étapes"
+  steps:
+    - { title: "Importer une partition", body: "Touchez + et choisissez un PDF enregistré sur votre appareil." }
+    - { title: "Créer le minutage", body: "Analysez automatiquement la partition ou enregistrez les mesures vous-même." }
+    - { title: "Commencer à jouer", body: "Touchez Lecture : la partition avance au tempo choisi." }
+    - { title: "Jouer ensemble", body: "Créez ou rejoignez une session Ensemble pour synchroniser les appareils." }
+  library_kicker: "Bibliothèque"
+  library_title: "Toutes vos partitions au même endroit"
+  library_body: "Retrouvez les partitions récentes, les listes et toute votre bibliothèque depuis l’accueil."
+  library_points: ["Importer un PDF avec +", "Trouver rapidement avec la recherche et le tri", "Créer des listes dans l’ordre du concert"]
+  library_alt: "Bibliothèque ScoreCue Android en français"
+  viewer_kicker: "Lecteur"
+  viewer_title: "Rien que la partition pendant le jeu"
+  viewer_body: "Le lecteur réserve tout l’écran à la musique. Les commandes du bas gèrent lecture, navigation et répétition."
+  viewer_points: ["Démarrer le défilement automatique avec Lecture", "Toucher la partition pour afficher ou masquer les commandes", "Ouvrir Plus pour annotations, minutage et métronome"]
+  viewer_alt: "Lecteur de partitions ScoreCue Android"
+  settings_kicker: "Réglages"
+  settings_title: "Adapter ScoreCue à votre jeu"
+  settings_body: "Réglez la pédale, le décompte, l’écran, les données et le compte au même endroit."
+  settings_points: ["Associer suivant, précédent et lecture/arrêt à la pédale", "Choisir le décompte avant lecture", "Régler l’affichage et le maintien de l’écran"]
+  settings_alt: "Réglages ScoreCue Android en français"
+  platform_title: "Différences entre Android et iPad"
+  platform_intro: "Les fonctions et formats sont communs ; la navigation suit les usages de chaque plateforme."
+  android_title: "Grand écran et accès libre aux fichiers"
+  android_body: "Android utilise une bibliothèque en cartes et des réglages adaptés aux tablettes."
+  android_points: ["Sélecteur de fichiers système via +", "Retour Android et menu de partage", "Apprentissage de la pédale Bluetooth dans Réglages"]
+  ios_title: "Barre latérale iPad et Apple Pencil"
+  ios_body: "Sur iPad, ScoreCue exploite la barre latérale, Fichiers et les raccourcis clavier."
+  ios_points: ["Importer les PDF via Fichiers", "Annoter avec Apple Pencil", "Raccourcis ⌘S, ⌘I, ⌘E et ⌘L"]
+  help_kicker: "Besoin d’aide ?"
+  help_title: "Gardez la musique en mouvement"
+  help_body: "Indiquez votre appareil et le problème rencontré pour que nous puissions vous aider."
+
+pt-br:
+  eyebrow: "Guia oficial do usuário"
+  title: "Primeiros passos com o ScoreCue"
+  lead: "Importe uma partitura em PDF, defina a marcação e avance sem tirar as mãos do instrumento."
+  start: "Início rápido"
+  compare: "Diferenças por plataforma"
+  on_this_page: "Nesta página"
+  quick_title: "Comece em quatro etapas"
+  steps:
+    - { title: "Importe uma partitura", body: "Toque em + e escolha um PDF salvo no dispositivo." }
+    - { title: "Crie a marcação", body: "Analise a partitura ou registre manualmente os compassos." }
+    - { title: "Comece a tocar", body: "Toque em Reproduzir e a partitura avança no andamento definido." }
+    - { title: "Toquem juntos", body: "Crie ou entre em uma sessão de Conjunto para sincronizar dispositivos." }
+  library_kicker: "Biblioteca"
+  library_title: "Todas as partituras em um só lugar"
+  library_body: "Acesse partituras recentes, repertórios e toda a biblioteca pela tela inicial."
+  library_points: ["Importe PDF pelo botão +", "Encontre músicas com pesquisa e ordenação", "Monte repertórios na ordem da apresentação"]
+  library_alt: "Biblioteca do ScoreCue Android em português"
+  viewer_kicker: "Visualizador"
+  viewer_title: "Só a partitura enquanto você toca"
+  viewer_body: "O visualizador dedica a tela à música. Os controles inferiores cuidam de reprodução, navegação e repetição."
+  viewer_points: ["Inicie a virada automática com Reproduzir", "Toque na partitura para mostrar ou ocultar controles", "Abra Mais para anotações, marcação e metrônomo"]
+  viewer_alt: "Visualizador de partituras do ScoreCue Android"
+  settings_kicker: "Configurações"
+  settings_title: "Adapte o ScoreCue ao seu jeito de tocar"
+  settings_body: "Configure pedal, contagem, tela, dados e conta em um só lugar."
+  settings_points: ["Associe próximo, anterior e iniciar/parar ao pedal", "Escolha a contagem antes da reprodução", "Ajuste opções de tela e exibição"]
+  settings_alt: "Configurações do ScoreCue Android em português"
+  platform_title: "Diferenças entre Android e iPad"
+  platform_intro: "Os recursos e formatos são iguais; a navegação segue as convenções de cada plataforma."
+  android_title: "Tela grande e acesso aberto a arquivos"
+  android_body: "O Android usa biblioteca em cartões e configurações adaptadas a tablets."
+  android_points: ["Seletor de arquivos do sistema pelo +", "Voltar e compartilhamento do Android", "Aprendizado do pedal Bluetooth nas Configurações"]
+  ios_title: "Barra lateral do iPad e Apple Pencil"
+  ios_body: "No iPad, o ScoreCue usa barra lateral, app Arquivos e atalhos de teclado."
+  ios_points: ["Importe PDFs pelo Arquivos", "Anote com Apple Pencil", "Atalhos ⌘S, ⌘I, ⌘E e ⌘L"]
+  help_kicker: "Precisa de ajuda?"
+  help_title: "Mantenha a música em movimento"
+  help_body: "Informe o modelo do dispositivo e o que aconteceu para receber ajuda."

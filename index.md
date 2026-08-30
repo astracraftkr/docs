@@ -1,39 +1,24 @@
 ---
-title: ScoreCue 문서
+title: ScoreCue
 permalink: /
+description: ScoreCue 사용자 가이드, 사용 팁, 약관과 정책
+hide_title: true
+hide_business: true
 ---
 
-**ScoreCue**는 밴드 연주자를 위한 악보 뷰어입니다. 악보를 넘기는 손을 악기에서 떼지 않도록,
-곡에 타이밍을 만들어 두면 페이지가 스스로 넘어가고 합주 중에는 여러 기기가 같은 마디를 함께
-따라갑니다. Android와 iOS(iPadOS)에서 같은 기능을 제공합니다.
+<section class="home-hero">
+  <div><p class="eyebrow">SCORE READER FOR MUSICIANS</p><h1>연주에 집중하세요.<br><span>악보는 ScoreCue가 따라갑니다.</span></h1><p class="lead">PDF 악보 가져오기, 자동 페이지 넘김, 필기, 페달 제어, 그리고 여러 기기가 함께 움직이는 합주까지. 사용하는 언어를 선택해 바로 시작하세요.</p></div>
+  <div class="home-preview" aria-hidden="true"><img src="{{ '/assets/screenshots/android/ko/viewer.png' | relative_url }}" alt=""></div>
+</section>
 
-이 사이트는 ScoreCue의 **약관·정책·라이선스 고지**를 공개하는 곳입니다.
+<section class="language-section">
+  <p class="eyebrow">USER GUIDE</p><h2>언어를 선택하세요</h2>
+  <div class="language-grid">
+    <a href="{{ '/ko/guide/' | relative_url }}"><strong>한국어</strong><span>사용자 가이드 →</span></a><a href="{{ '/en/guide/' | relative_url }}"><strong>English</strong><span>User guide →</span></a><a href="{{ '/ja/guide/' | relative_url }}"><strong>日本語</strong><span>ユーザーガイド →</span></a><a href="{{ '/es/guide/' | relative_url }}"><strong>Español</strong><span>Guía del usuario →</span></a><a href="{{ '/de/guide/' | relative_url }}"><strong>Deutsch</strong><span>Benutzerhandbuch →</span></a><a href="{{ '/fr/guide/' | relative_url }}"><strong>Français</strong><span>Guide d’utilisation →</span></a><a href="{{ '/pt-br/guide/' | relative_url }}"><strong>Português</strong><span>Guia do usuário →</span></a>
+  </div>
+</section>
 
-## 약관 및 정책 (한국어)
-
-- [이용약관]({{ '/ko/terms/' | relative_url }})
-- [개인정보처리방침]({{ '/ko/privacy/' | relative_url }})
-- [결제·환불 정책]({{ '/ko/refund/' | relative_url }})
-- [최종 사용자 사용권 계약 (EULA)]({{ '/ko/eula/' | relative_url }})
-- [오픈소스 라이선스 고지]({{ '/ko/licenses/' | relative_url }})
-- [사업자 정보]({{ '/ko/business/' | relative_url }})
-
-## Terms and Policies (English)
-
-- [Terms of Service]({{ '/en/terms/' | relative_url }})
-- [Privacy Policy]({{ '/en/privacy/' | relative_url }})
-- [Payment & Refund Policy]({{ '/en/refund/' | relative_url }})
-- [End User License Agreement (EULA)]({{ '/en/eula/' | relative_url }})
-- [Open Source Notices]({{ '/en/licenses/' | relative_url }})
-- [Business Information]({{ '/en/business/' | relative_url }})
-
-한국어판이 정본입니다. 영문판은 편의를 위한 번역이며, 두 판의 내용이 다를 경우 한국어판이 우선합니다.
-*The Korean version is authoritative; the English version is a convenience translation.*
-
-## 사용 안내 · User Guide
-
-사용 매뉴얼은 준비 중입니다. *The user manual is in preparation.*
-
-## 문의 · Contact
-
-<a href="mailto:support@astracraft.kr">support@astracraft.kr</a>
+<section class="policy-section">
+  <div><p class="eyebrow">LEGAL &amp; SUPPORT</p><h2>약관과 정책</h2><p>ScoreCue 서비스 운영 정책과 개인정보 처리 내용을 확인할 수 있습니다. 한국어판이 정본이며 영문판은 편의를 위한 번역입니다.</p></div>
+  <div class="policy-links"><a href="{{ '/ko/terms/' | relative_url }}">이용약관</a><a href="{{ '/ko/privacy/' | relative_url }}">개인정보처리방침</a><a href="{{ '/ko/refund/' | relative_url }}">결제·환불 정책</a><a href="{{ '/ko/eula/' | relative_url }}">사용권 계약</a><a href="{{ '/en/terms/' | relative_url }}">Terms of Service</a><a href="{{ '/en/privacy/' | relative_url }}">Privacy Policy</a></div>
+</section>

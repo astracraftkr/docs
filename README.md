@@ -1,25 +1,30 @@
 # ScoreCueDoc
 
-ScoreCue(밴드 연주자용 악보 뷰어, Android + iOS)의 **외부 공개용 문서 저장소**입니다.
-GitHub Pages(Jekyll)로 서비스하며, 앱 스토어와 RevenueCat 페이월이 참조하는 약관·정책 URL의 출처입니다.
+ScoreCue(밴드 연주자용 악보 뷰어, Android + iOS)의 **외부 공개용 사용자 가이드·문서 저장소**입니다.
+GitHub Pages(Jekyll)로 서비스하며, 7개 언어의 사용자 가이드와 앱 스토어·RevenueCat 페이월이 참조하는 약관·정책을 제공합니다.
 
 앱 코드 저장소: [astracraftkr/ScoreCue](https://github.com/astracraftkr/ScoreCue) (Android/iOS 서브모듈)
 
 ## 구성
 
 ```
-index.md              언어·문서 허브 (한/영 양쪽 링크)
+index.md              다국어 사용자 가이드·정책 허브
+_layouts/guide.html   7개 언어 공통 사용자 가이드 레이아웃
+_data/guides.yml      사용자 가이드 번역 원문
+{locale}/guide/       ko/en/ja/es/de/fr/pt-br 가이드 URL
+assets/screenshots/android/{locale}/  Android 실기기 스크린샷
+assets/screenshots/ios/{locale}/      iPadOS 스크린샷(플랫폼별 분리)
 ko/{terms,privacy,refund,eula,licenses}.md   한국어 (정본)  → /ko/…/
 en/{terms,privacy,refund,eula,licenses}.md   English 번역   → /en/…/
 _layouts/default.html 공통 레이아웃 (page.lang으로 헤더·푸터 언어 전환)
 assets/style.css      스타일 (라이트/다크 대응)
-_config.yml           Jekyll 설정 (baseurl: /ScoreCueDoc)
+_config.yml           Jekyll 설정 (url: https://doc.astracraft.kr, baseurl: 빈 값)
 ```
 
 각 페이지는 front matter의 `permalink`로 URL을 고정한다. **스토어·RevenueCat에 등록한 뒤에는 permalink를
 바꾸지 말 것** — 링크가 깨진다. 파일 이름을 바꿔도 permalink가 그대로면 URL은 유지된다.
 
-front matter 필드: `lang`(ko/en — 레이아웃의 언어 전환 기준), `alt`(반대 언어 페이지 경로 — 헤더의 언어
+front matter 필드: `lang`(가이드 7개 언어, 정책 ko/en — 레이아웃의 언어 전환 기준), `alt`(반대 언어 페이지 경로 — 헤더의 언어
 전환 링크와 `hreflang`에 쓰인다), `effective`(시행일), `updated`(최종 수정일, 선택).
 
 **한국어판이 정본이다.** 영문판 각 문서 상단에 그 사실과 "불일치 시 한국어판 우선"을 명시해 두었다.
@@ -29,7 +34,7 @@ front matter 필드: `lang`(ko/en — 레이아웃의 언어 전환 기준), `al
 
 GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / 루트.
 
-기준 URL: `https://astracraftkr.github.io/ScoreCueDoc/`
+기준 URL: `https://doc.astracraft.kr/`
 
 | 문서 | 한국어 | English |
 |---|---|---|
