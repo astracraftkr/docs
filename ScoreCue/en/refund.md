@@ -27,6 +27,7 @@ alt: /ScoreCue/ko/refund/
   country under each store's pricing policy.
 - Free users may create any number of sessions, but hosts and participants share the same continuous
   30-minute window beginning with their first session start each day. Leaving does not pause it.
+- One signed-in account can occupy only one seat in the same session.
 - **Both products unlock the same features.** What you choose is not a feature set but a **payment
   method** — pay each year, or pay once. Unlimited ensemble time and running a band are included in the
   Lifetime product **with no time limit**.

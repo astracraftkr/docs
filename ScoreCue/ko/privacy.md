@@ -3,7 +3,7 @@ title: ScoreCue 개인정보처리방침
 permalink: /ScoreCue/ko/privacy/
 redirect_from: /ko/privacy/
 effective: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-30
 description: ScoreCue가 수집하는 정보, 저장 위치, 삭제 방법
 lang: ko
 alt: /ScoreCue/en/privacy/
@@ -99,6 +99,9 @@ ID로 사용)와 스토어의 구매·구독 내역 및 영수증 정보가 전�
 서버를 거치지 않습니다.
 
 - 세션에 참여한 기기들 사이에 세션 이름·참가자 표시 이름·현재 재생 위치·곡 전환 정보가 교환됩니다.
+- 로그인한 참여자는 밴드 멤버십 확인과 같은 계정의 중복 참여 방지를 위해 계정 식별자(Firebase UID)를
+  호스트 기기에 직접 전송합니다. 이 식별자는 합주 로스터에 표시되거나
+  외부 서버로 전송되지 않습니다.
 - Bluetooth 방식에서는 호스트 기기가 고정된 서비스 식별자를 주변에 알리며, 참가자 기기가 이를
   검색합니다. 페어링은 필요하지 않습니다.
 - Android에서 Bluetooth 검색 권한은 **위치 정보를 얻는 목적으로 사용하지 않으며**(`neverForLocation`),

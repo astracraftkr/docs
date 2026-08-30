@@ -3,7 +3,7 @@ title: ScoreCue Privacy Policy
 permalink: /ScoreCue/en/privacy/
 redirect_from: /en/privacy/
 effective: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-30
 description: What ScoreCue collects, where it is stored, and how to delete it
 lang: en
 alt: /ScoreCue/ko/privacy/
@@ -107,6 +107,9 @@ Bluetooth**, without passing through any external server.
 
 - Devices in a session exchange the session name, participant display names, the current playback
   position, and song change information.
+- A signed-in participant sends their account identifier (Firebase UID) directly to the host device
+  to verify band membership and prevent one account from occupying multiple seats. It is not shown
+  in the ensemble roster or sent to an external server.
 - Over Bluetooth, the host device advertises a fixed service identifier that participant devices scan
   for. No pairing is required.
 - On Android, the Bluetooth scanning permission is declared `neverForLocation` — it is **not used to

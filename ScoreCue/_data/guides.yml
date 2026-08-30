@@ -10,7 +10,7 @@ ko:
     - { title: "악보 가져오기", body: "+ 버튼을 눌러 기기에 저장된 PDF를 선택합니다." }
     - { title: "타이밍 만들기", body: "악보 속성에서 자동 분석하거나 직접 마디 타이밍을 기록합니다." }
     - { title: "연주 시작", body: "재생을 누르면 설정한 템포에 맞춰 악보가 자동으로 이동합니다." }
-    - { title: "함께 맞추기", body: "합주 세션을 만들거나 참여해 여러 기기의 진행을 동기화합니다." }
+    - { title: "함께 맞추기", body: "합주 세션을 만들거나 참여해 여러 기기의 진행을 동기화합니다. 같은 계정은 한 세션에 한 번만 참여할 수 있습니다." }
   library_kicker: "라이브러리"
   library_title: "악보를 한곳에 정리"
   library_body: "홈 화면에서 최근 악보, 셋리스트, 전체 악보를 바로 찾을 수 있습니다."
@@ -50,7 +50,7 @@ en:
     - { title: "Import a score", body: "Tap + and choose a PDF stored on your device." }
     - { title: "Create timing", body: "Analyze the score automatically or record bar timing yourself." }
     - { title: "Start playing", body: "Press Play and the score advances at the tempo you set." }
-    - { title: "Play together", body: "Create or join an Ensemble session to sync progress across devices." }
+    - { title: "Play together", body: "Create or join an Ensemble session to sync progress across devices. One account can occupy only one seat in a session." }
   library_kicker: "Library"
   library_title: "Keep every score in one place"
   library_body: "Find recent scores, setlists, and your full library from the home screen."
@@ -90,7 +90,7 @@ ja:
     - { title: "楽譜を読み込む", body: "+をタップし、端末に保存したPDFを選びます。" }
     - { title: "タイミングを作る", body: "自動解析するか、小節のタイミングを自分で記録します。" }
     - { title: "演奏を始める", body: "再生すると、設定したテンポで楽譜が自動的に進みます。" }
-    - { title: "一緒に演奏する", body: "アンサンブルを作成または参加し、複数端末を同期します。" }
+    - { title: "一緒に演奏する", body: "アンサンブルを作成または参加し、複数端末を同期します。同じアカウントは1つのセッションに1回だけ参加できます。" }
   library_kicker: "ライブラリ"
   library_title: "すべての楽譜を一か所に"
   library_body: "ホーム画面から最近の楽譜、セットリスト、全楽譜をすぐに開けます。"
@@ -130,7 +130,7 @@ es:
     - { title: "Importa una partitura", body: "Toca + y elige un PDF guardado en tu dispositivo." }
     - { title: "Crea la temporización", body: "Analiza la partitura o registra manualmente los compases." }
     - { title: "Empieza a tocar", body: "Pulsa Reproducir y la partitura avanzará al tempo elegido." }
-    - { title: "Tocad juntos", body: "Crea o únete a una sesión de Ensamble para sincronizar dispositivos." }
+    - { title: "Tocad juntos", body: "Crea o únete a una sesión de Ensamble para sincronizar dispositivos. Cada cuenta solo puede ocupar una plaza en una sesión." }
   library_kicker: "Biblioteca"
   library_title: "Todas tus partituras en un solo lugar"
   library_body: "Accede a partituras recientes, repertorios y toda la biblioteca desde la pantalla principal."
@@ -170,7 +170,7 @@ de:
     - { title: "Partitur importieren", body: "Tippe auf + und wähle eine PDF-Datei auf deinem Gerät." }
     - { title: "Timing erstellen", body: "Analysiere die Partitur automatisch oder erfasse die Takte selbst." }
     - { title: "Wiedergabe starten", body: "Tippe auf Wiedergabe; die Partitur folgt dem gewählten Tempo." }
-    - { title: "Zusammen spielen", body: "Erstelle eine Ensemble-Sitzung oder tritt ihr bei, um Geräte zu synchronisieren." }
+    - { title: "Zusammen spielen", body: "Erstelle eine Ensemble-Sitzung oder tritt ihr bei, um Geräte zu synchronisieren. Ein Konto kann in einer Sitzung nur einen Platz belegen." }
   library_kicker: "Bibliothek"
   library_title: "Alle Partituren an einem Ort"
   library_body: "Öffne zuletzt verwendete Partituren, Setlisten und die gesamte Bibliothek vom Startbildschirm."
@@ -210,7 +210,7 @@ fr:
     - { title: "Importer une partition", body: "Touchez + et choisissez un PDF enregistré sur votre appareil." }
     - { title: "Créer le minutage", body: "Analysez automatiquement la partition ou enregistrez les mesures vous-même." }
     - { title: "Commencer à jouer", body: "Touchez Lecture : la partition avance au tempo choisi." }
-    - { title: "Jouer ensemble", body: "Créez ou rejoignez une session Ensemble pour synchroniser les appareils." }
+    - { title: "Jouer ensemble", body: "Créez ou rejoignez une session Ensemble pour synchroniser les appareils. Un compte ne peut occuper qu’une seule place dans une session." }
   library_kicker: "Bibliothèque"
   library_title: "Toutes vos partitions au même endroit"
   library_body: "Retrouvez les partitions récentes, les listes et toute votre bibliothèque depuis l’accueil."
@@ -250,7 +250,7 @@ pt-br:
     - { title: "Importe uma partitura", body: "Toque em + e escolha um PDF salvo no dispositivo." }
     - { title: "Crie a marcação", body: "Analise a partitura ou registre manualmente os compassos." }
     - { title: "Comece a tocar", body: "Toque em Reproduzir e a partitura avança no andamento definido." }
-    - { title: "Toquem juntos", body: "Crie ou entre em uma sessão de Conjunto para sincronizar dispositivos." }
+    - { title: "Toquem juntos", body: "Crie ou entre em uma sessão de Conjunto para sincronizar dispositivos. Cada conta pode ocupar apenas uma vaga em uma sessão." }
   library_kicker: "Biblioteca"
   library_title: "Todas as partituras em um só lugar"
   library_body: "Acesse partituras recentes, repertórios e toda a biblioteca pela tela inicial."
