@@ -1,0 +1,51 @@
+categories:
+  - number: "01"
+    title: "시작하기"
+    description: "처음 설치한 뒤 한 곡을 자동 재생하기까지의 전체 흐름입니다."
+    items:
+      - { title: "5분 빠른 시작", summary: "PDF 한 곡으로 핵심 기능 체험", url: "/ScoreCue/ko/guide/quick-start/" }
+  - number: "02"
+    title: "악보 준비"
+    description: "PDF를 가져오고 라이브러리에서 공연용 악보를 정리합니다."
+    items:
+      - { title: "PDF 가져오기와 관리", summary: "폴더 등록, 검색, 정렬, 다시 연결", url: "/ScoreCue/ko/guide/import-manage/" }
+  - number: "03"
+    title: "악보 진행"
+    description: "ScoreCue가 연주 위치를 이해하도록 마디와 시간을 설정합니다."
+    items:
+      - { title: "자동 분석으로 만들기", summary: "마디·템포 인식 결과 확인", url: "/ScoreCue/ko/guide/timing-auto/" }
+      - { title: "직접 탭해서 만들기", summary: "실제 연주에 맞춰 페이지 시간 기록", url: "/ScoreCue/ko/guide/timing-manual/" }
+      - { title: "진행 세밀하게 편집", summary: "마디, 템포 변화, 페르마타 보정", url: "/ScoreCue/ko/guide/timing-edit/" }
+  - number: "04"
+    title: "재생과 싱크"
+    description: "자동 넘김을 시작하고 메트로놈·음원·영상과 맞춥니다."
+    items:
+      - { title: "재생과 반복", summary: "시작, 정지, 속도, 구간 반복", url: "/ScoreCue/ko/guide/playback/" }
+      - { title: "카운트인 설정", summary: "전역 기본값과 곡별 설정", url: "/ScoreCue/ko/guide/count-in/" }
+      - { title: "YouTube 싱크", summary: "영상 주소와 시작 위치 맞추기", url: "/ScoreCue/ko/guide/youtube-sync/" }
+      - { title: "로컬 오디오 싱크", summary: "기기 음원과 시작 오프셋 조정", url: "/ScoreCue/ko/guide/local-audio/" }
+  - number: "05"
+    title: "보기와 조작"
+    description: "연주 화면을 원하는 방식으로 표시하고 손을 쓰지 않고 제어합니다."
+    items:
+      - { title: "악보 보기와 필기", summary: "보기 방식, 밝기, 반전, 주석", url: "/ScoreCue/ko/guide/viewer-controls/" }
+      - { title: "블루투스 페달", summary: "다음·이전·시작 키 학습", url: "/ScoreCue/ko/guide/pedal/" }
+  - number: "06"
+    title: "공연과 합주"
+    description: "공연 순서를 만들고 여러 연주자의 기기를 함께 움직입니다."
+    items:
+      - { title: "셋리스트 만들기", summary: "곡 순서와 자동 다음 곡", url: "/ScoreCue/ko/guide/setlists/" }
+      - { title: "합주 세션 만들기", summary: "호스트 설정과 곡 공유", url: "/ScoreCue/ko/guide/ensemble-host/" }
+      - { title: "합주 세션 참여하기", summary: "참여 코드, 악보 연결, 시간 제한", url: "/ScoreCue/ko/guide/ensemble-join/" }
+      - { title: "밴드 커뮤니티", summary: "멤버, 일정, 공지, 투표", url: "/ScoreCue/ko/guide/bands/" }
+  - number: "07"
+    title: "계정과 데이터"
+    description: "로그인, 플랜, 복원과 데이터 보관 범위를 확인합니다."
+    items:
+      - { title: "계정과 구독", summary: "로그인, 무료·Pro, 구매 복원", url: "/ScoreCue/ko/guide/account-subscription/" }
+      - { title: "백업과 기기 변경", summary: "백업되는 항목과 PDF 보관", url: "/ScoreCue/ko/guide/backup/" }
+  - number: "08"
+    title: "문제 해결"
+    description: "페이지 넘김, 소리, 영상, 합주 연결 문제를 빠르게 진단합니다."
+    items:
+      - { title: "증상별 해결 방법", summary: "가장 자주 생기는 문제 모음", url: "/ScoreCue/ko/guide/troubleshooting/" }

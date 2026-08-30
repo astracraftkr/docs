@@ -15,14 +15,14 @@
 {% if page.alt %}<link rel="alternate" hreflang="{% if lang == 'ko' %}en{% else %}ko{% endif %}" href="{{ page.alt | relative_url }}">{% endif %}
 <link rel="stylesheet" href="{{ '/ScoreCue/assets/style.css' | relative_url }}">
 </head>
-<body class="{% if page.guide %}guide-page{% else %}document-page{% endif %}">
+<body class="{% if page.manual %}manual-page{% elsif page.guide %}guide-page{% else %}document-page{% endif %}">
 <header class="site">
   <a class="brand" href="{{ '/ScoreCue/' | relative_url }}" aria-label="ScoreCue home">
     <span class="brand-mark" aria-hidden="true">♪</span>
     <span>ScoreCue</span>
   </a>
   <nav aria-label="Primary navigation">
-    <a href="{{ '/ScoreCue/' | append: lang | append: '/guide/' | relative_url }}">Guide</a>
+    <a href="{{ '/ScoreCue/' | append: lang | append: '/guide/' | relative_url }}">{% if lang == 'ko' %}사용 설명서{% else %}Guide{% endif %}</a>
     {% if lang == 'ko' %}<a href="{{ '/ScoreCue/ko/privacy/' | relative_url }}">정책</a>{% elsif lang == 'en' %}<a href="{{ '/ScoreCue/en/privacy/' | relative_url }}">Policies</a>{% endif %}
     <details class="language-menu">
       <summary aria-label="Change language">Language</summary>
@@ -40,7 +40,7 @@
 </header>
 
 <main>
-  {% unless page.guide or page.hide_title %}{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}{% endunless %}
+  {% unless page.guide or page.manual or page.hide_title %}{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}{% endunless %}
   {% if page.effective %}
   <p class="meta">
     {% if lang == 'ko' %}
@@ -64,7 +64,7 @@
     <a href="{{ '/ScoreCue/en/privacy/' | relative_url }}">Privacy</a>
     <a href="mailto:support@astracraft.kr">Support</a>
   </div>
-  {% unless page.guide or page.hide_business %}
+  {% unless page.guide or page.manual or page.hide_business %}
   <p class="biz">
     {% if lang == 'ko' %}
     상호 Astra Craft · 대표자 박효진 · 경기도 오산시 큰말길<br>

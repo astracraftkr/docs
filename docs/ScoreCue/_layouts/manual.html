@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% assign manual = site.data.manual_ko %}
+<div class="manual-shell">
+  <aside class="manual-sidebar" aria-label="ScoreCue 한국어 설명서 목차">
+    <a class="manual-sidebar-home" href="{{ '/ScoreCue/ko/guide/' | relative_url }}">사용 설명서 홈</a>
+    {% for category in manual.categories %}
+    <section>
+      <h2><span>{{ category.number }}</span>{{ category.title }}</h2>
+      <ul>
+        {% for item in category.items %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.permalink == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </aside>
+
+  <article class="manual-article">
+    <nav class="breadcrumbs" aria-label="현재 위치">
+      <a href="{{ '/ScoreCue/ko/guide/' | relative_url }}">사용 설명서</a><span aria-hidden="true">/</span><span>{{ page.section }}</span>
+    </nav>
+    <header class="manual-article-header">
+      <p class="eyebrow">Android · {{ page.section }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+      {% if page.when %}<p class="manual-when"><strong>이럴 때 보세요</strong>{{ page.when }}</p>{% endif %}
+    </header>
+
+    {% if page.hero_image %}
+    <figure class="manual-figure{% if page.hero_portrait %} portrait{% endif %}">
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt }}">
+      {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+
+    <div class="manual-content">{{ content }}</div>
+
+    {% if page.prev_url or page.next_url %}
+    <nav class="manual-pager" aria-label="이전 및 다음 설명">
+      {% if page.prev_url %}<a class="prev" href="{{ page.prev_url | relative_url }}"><small>이전</small><strong>{{ page.prev_title }}</strong></a>{% else %}<span></span>{% endif %}
+      {% if page.next_url %}<a class="next" href="{{ page.next_url | relative_url }}"><small>다음</small><strong>{{ page.next_title }}</strong></a>{% endif %}
+    </nav>
+    {% endif %}
+  </article>
+</div>
