@@ -1,0 +1,101 @@
+---
+layout: null
+permalink: /ScoreCue/invite/
+---
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>ScoreCue 밴드 초대</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px;
+      color: #18201d; background: radial-gradient(circle at top, #d9f5e8 0, #f7faf8 46%, #eef3f0 100%);
+    }
+    main {
+      width: min(100%, 440px); padding: 32px 26px; border-radius: 28px; text-align: center;
+      background: rgba(255,255,255,.88); box-shadow: 0 20px 60px rgba(22,65,48,.14);
+      border: 1px solid rgba(30,100,70,.12); backdrop-filter: blur(14px);
+    }
+    .mark {
+      width: 72px; height: 72px; margin: 0 auto 18px; display: grid; place-items: center;
+      border-radius: 22px; background: #146c4a; color: white; font-size: 38px; box-shadow: 0 10px 24px rgba(20,108,74,.25);
+    }
+    h1 { margin: 0; font-size: 27px; letter-spacing: -.03em; }
+    .lead { margin: 10px 0 22px; color: #53615b; line-height: 1.55; }
+    .code-label { margin: 0 0 6px; color: #6b7772; font-size: 13px; }
+    .code { margin: 0 0 24px; font: 700 25px ui-monospace, SFMono-Regular, monospace; letter-spacing: .14em; }
+    .actions { display: grid; gap: 10px; }
+    a, button {
+      min-height: 50px; border: 0; border-radius: 14px; display: grid; place-items: center;
+      padding: 12px 18px; font: 650 16px inherit; text-decoration: none; cursor: pointer;
+    }
+    .primary { background: #146c4a; color: white; }
+    .secondary { background: #e5efe9; color: #174b38; }
+    .disabled { background: #edf0ee; color: #89918d; cursor: default; }
+    .note { margin: 20px 0 0; color: #6b7772; font-size: 13px; line-height: 1.5; }
+    .invalid { color: #9f2d2d; }
+    [hidden] { display: none !important; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #edf5f1; background: radial-gradient(circle at top, #183d30 0, #101714 55%); }
+      main { background: rgba(25,34,30,.9); border-color: rgba(180,230,207,.12); }
+      .lead, .code-label, .note { color: #aab8b1; }
+      .secondary { background: #273c33; color: #d9f5e8; }
+      .disabled { background: #29302d; color: #7f8a85; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">♪</div>
+    <h1>ScoreCue 밴드 초대</h1>
+    <p class="lead" id="lead">함께 연주할 밴드로 초대받았습니다.<br>ScoreCue를 설치하고 바로 참여하세요.</p>
+    <p class="code-label">초대 코드</p>
+    <p class="code" id="code">------</p>
+    <div class="actions">
+      <a class="primary" id="android" href="https://play.google.com/store/apps/details?id=kr.astracraft.scorecue">Google Play에서 설치</a>
+      <span class="disabled" id="ios">App Store 출시 준비 중</span>
+      <button class="secondary" id="copy" type="button">초대 링크 복사</button>
+    </div>
+    <p class="note">설치가 끝나면 이 초대 링크를 다시 누르세요. 앱이 밴드 참여 화면을 바로 열어 줍니다.</p>
+  </main>
+  <script>
+    (() => {
+      const code = decodeURIComponent(location.hash.slice(1)).trim().toUpperCase();
+      const valid = /^[A-Z0-9]{6}$/.test(code);
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      const isAndroid = /Android/i.test(navigator.userAgent);
+      const android = document.getElementById("android");
+      const ios = document.getElementById("ios");
+      const shownCode = document.getElementById("code");
+      const copy = document.getElementById("copy");
+
+      shownCode.textContent = valid ? code : "------";
+      if (!valid) {
+        shownCode.classList.add("invalid");
+        document.getElementById("lead").textContent = "초대 링크가 올바르지 않습니다. 밴드 멤버에게 새 링크를 요청하세요.";
+        copy.hidden = true;
+      }
+      if (isIOS) android.hidden = true;
+      if (isAndroid) ios.hidden = true;
+
+      copy.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(location.href);
+          copy.textContent = "복사했습니다";
+        } catch (_) {
+          const selection = window.getSelection();
+          const range = document.createRange();
+          range.selectNode(shownCode);
+          selection.removeAllRanges(); selection.addRange(range);
+          copy.textContent = "코드를 길게 눌러 복사하세요";
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

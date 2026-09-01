@@ -15,9 +15,11 @@ notes/                       제작 메모 (Pages 비공개)
 docs/                        GitHub Pages 게시 루트
   _config.yml                사이트 전체 Jekyll 설정
   CNAME                      doc.astracraft.kr
+  .well-known/               Android App Links · iOS Universal Links 도메인 검증
   index.html                 제품 목록 허브
   ScoreCue/
     index.md                 ScoreCue 다국어 허브 → /ScoreCue/
+    invite/index.html        공통 밴드 초대·설치 안내 페이지
     _layouts/                공통·가이드 레이아웃
     _data/guides.yml         사용자 가이드 번역 원문
     {locale}/guide/          ko/en/ja/es/de/fr/pt-br 가이드
@@ -50,6 +52,7 @@ GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / `docs` �
 | EULA | `/ScoreCue/ko/eula/` | `/ScoreCue/en/eula/` |
 | 오픈소스 고지 | `/ScoreCue/ko/licenses/` | `/ScoreCue/en/licenses/` |
 | 사업자 정보 | `/ScoreCue/ko/business/` | `/ScoreCue/en/business/` |
+| 밴드 초대 | `/ScoreCue/invite/#초대코드` | 양 플랫폼 공통 |
 
 이 URL을 넣어야 하는 곳:
 

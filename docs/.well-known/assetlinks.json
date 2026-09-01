@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kr.astracraft.scorecue",
+      "sha256_cert_fingerprints": [
+        "35:8E:C8:9B:43:FF:5B:A1:6D:DD:80:C6:85:37:E4:29:96:28:E9:B6:8F:E6:28:EA:E2:23:31:4A:F0:E1:EA:59"
+      ]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5572NLA7Z2.kr.astracraft.scorecue",
+        "paths": [
+          "/ScoreCue/invite/*"
+        ]
+      }
+    ]
+  }
+}
