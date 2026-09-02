@@ -20,5 +20,5 @@ hide_business: true
 
 <section class="policy-section">
   <div><p class="eyebrow">LEGAL &amp; SUPPORT</p><h2>약관과 정책</h2><p>ScoreCue 서비스 운영 정책과 개인정보 처리 내용을 확인할 수 있습니다. 한국어판이 정본이며 영문판은 편의를 위한 번역입니다.</p></div>
-  <div class="policy-links"><a href="{{ '/ScoreCue/ko/terms/' | relative_url }}">이용약관</a><a href="{{ '/ScoreCue/ko/privacy/' | relative_url }}">개인정보처리방침</a><a href="{{ '/ScoreCue/ko/refund/' | relative_url }}">결제·환불 정책</a><a href="{{ '/ScoreCue/ko/eula/' | relative_url }}">사용권 계약</a><a href="{{ '/ScoreCue/en/terms/' | relative_url }}">Terms of Service</a><a href="{{ '/ScoreCue/en/privacy/' | relative_url }}">Privacy Policy</a></div>
+  <div class="policy-links"><a href="{{ '/ScoreCue/ko/terms/' | relative_url }}">이용약관</a><a href="{{ '/ScoreCue/ko/privacy/' | relative_url }}">개인정보처리방침</a><a href="{{ '/ScoreCue/ko/refund/' | relative_url }}">결제·환불 정책</a><a href="{{ '/ScoreCue/ko/delete-account/' | relative_url }}">계정·데이터 삭제</a><a href="{{ '/ScoreCue/ko/eula/' | relative_url }}">사용권 계약</a><a href="{{ '/ScoreCue/en/terms/' | relative_url }}">Terms of Service</a><a href="{{ '/ScoreCue/en/privacy/' | relative_url }}">Privacy Policy</a><a href="{{ '/ScoreCue/en/delete-account/' | relative_url }}">Delete Account</a></div>
 </section>

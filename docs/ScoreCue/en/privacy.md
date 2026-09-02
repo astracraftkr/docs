@@ -172,6 +172,9 @@ such transfers, you may use the App's basic features without signing in.
 You may request access to, correction of, deletion of, or suspension of processing of your personal
 information.
 
+> **Account and data deletion has its own page** — the steps, exactly what is deleted, and what is
+> retained afterwards with retention periods: [Delete Your ScoreCue Account and Data]({{ '/ScoreCue/en/delete-account/' | relative_url }})
+
 - **Sign out**: available at any time from the App's settings screen. Signing out stops server-linked
   features, and the App operates within the free scope.
 - **Delete your account in the App**: the account deletion function in settings deletes your account and
