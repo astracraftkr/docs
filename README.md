@@ -52,7 +52,7 @@ GitHub Pages 설정: Settings → Pages → Source = `main` 브랜치 / `docs` �
 | EULA | `/ScoreCue/ko/eula/` | `/ScoreCue/en/eula/` |
 | 오픈소스 고지 | `/ScoreCue/ko/licenses/` | `/ScoreCue/en/licenses/` |
 | 사업자 정보 | `/ScoreCue/ko/business/` | `/ScoreCue/en/business/` |
-| 밴드 초대 | `/ScoreCue/invite/#초대코드` | 양 플랫폼 공통 |
+| 밴드 초대 | `/scorecue/invite/#초대코드` | 양 플랫폼 공통 |
 
 이 URL을 넣어야 하는 곳:
 

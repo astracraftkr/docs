@@ -7,7 +7,9 @@
       "namespace": "android_app",
       "package_name": "kr.astracraft.scorecue",
       "sha256_cert_fingerprints": [
-        "35:8E:C8:9B:43:FF:5B:A1:6D:DD:80:C6:85:37:E4:29:96:28:E9:B6:8F:E6:28:EA:E2:23:31:4A:F0:E1:EA:59"
+        "35:8E:C8:9B:43:FF:5B:A1:6D:DD:80:C6:85:37:E4:29:96:28:E9:B6:8F:E6:28:EA:E2:23:31:4A:F0:E1:EA:59",
+        "D4:AB:85:36:E1:44:9C:F3:57:5F:F9:90:27:E5:FA:96:76:F1:EE:3E:BF:27:E9:C1:06:EF:4E:34:5E:6B:74:36",
+        "EB:6D:65:97:A9:D5:D0:4F:5A:A3:3D:52:2D:39:F0:E2:47:BB:96:0D:F5:A0:47:91:54:45:3D:9F:D8:2E:BE:CF"
       ]
     }
   }

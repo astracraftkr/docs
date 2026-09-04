@@ -47,6 +47,7 @@ alt: /ScoreCue/en/delete-account/
 | 계정 식별 정보(사용자 고유 ID, 이메일, 표시 이름, 프로필 사진 URL) | Firebase Authentication |
 | 유료 권한 상태(권한 종류, 활성 여부, 만료일, 상품 식별자) | Cloud Firestore |
 | 기기 활성화 기록 | Cloud Firestore |
+| 구매 검증 토큰과 등록된 푸시 알림 토큰 | Cloud Firestore |
 | 모든 밴드에서의 본인 멤버 기록과 가입 요청 | Cloud Firestore |
 | 본인이 작성한 일정 참석 응답(RSVP)과 가능일 투표 | Cloud Firestore |
 

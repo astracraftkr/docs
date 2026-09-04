@@ -51,6 +51,7 @@ it is done.
 | Account identifiers (user ID, email address, display name, profile photo URL) | Firebase Authentication |
 | Entitlement status (entitlement type, active flag, expiry, product identifier) | Cloud Firestore |
 | Device activation record | Cloud Firestore |
+| Purchase-verification token and registered push-notification tokens | Cloud Firestore |
 | Your member record and join requests in every band | Cloud Firestore |
 | Event attendance responses (RSVPs) and availability votes you authored | Cloud Firestore |
 
