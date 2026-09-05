@@ -38,7 +38,7 @@ Authentication.
 | User ID (Firebase UID) | Account identification, managing paid entitlements |
 | Email address | Account identification, showing sign-in status in the App, support |
 | Display name | Showing sign-in status in the App, band roster display |
-| Profile photo URL | Showing sign-in status in the App |
+| Profile photo URL | Showing sign-in status in the App, showing the band roster |
 
 </div>
 
@@ -71,7 +71,9 @@ The following is stored only if you create a band or join one with an invite cod
 **visible to the other members of that band.**
 
 - Band name and invite code
-- Roster: each member's UID, display name, role (owner / co-leader / member), and join and removal times
+- Roster: each member's UID, display name, profile photo URL, masked email address (e.g.
+  `ab***@example.com`), the instrument and part they entered, role (owner / co-leader / member),
+  and join and removal times — **email addresses are never stored in full.**
 - Events and attendance responses (RSVPs), availability polls and responses
 - Announcement titles, bodies, and attached links
 - Shared setlist names and the song titles and order they contain

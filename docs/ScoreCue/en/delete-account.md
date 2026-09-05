@@ -27,9 +27,10 @@ Confirming removes your account and everything listed in section 3 from our serv
 permanently**; it cannot be undone. For security, if you have not signed in recently the app may ask you
 to sign in again before it proceeds.
 
-> **If you own a band, settle it first.** So that the remaining members are not stranded, delete the
-> bands you own or transfer ownership to another member before deleting your account. If you do not, the
-> app refuses the deletion and tells you why.
+> **If you own a band, delete it first.** So that the remaining members are not stranded, delete the
+> bands you own from the band settings before deleting your account. If you do not, the app refuses the
+> deletion and tells you why. Transferring ownership to another member is not supported yet — if the band
+> should live on, another member has to create a new one.
 
 ## 2. Request deletion by email (no app needed)
 
@@ -76,8 +77,10 @@ If you want those deleted too, say so in the email described in section 2.
 
 You can remove any of the following without deleting your account.
 
-- **Band data**: **Leave band** on the band screen deletes your member record, RSVPs and votes in that
-  band. Bands you own can be deleted from the band settings.
+- **Band data**: **Leave band** on the band screen removes you from that band's roster and ends your
+  access to its shared data. It records that you left rather than erasing your past RSVPs and votes — to
+  remove those as well, delete your account (sections 1-2) or ask us by email. Bands you own can be
+  deleted from the band settings.
 - **On-device data**: delete individual scores, annotations or timing data inside the app, or clear the
   app's data in your OS settings to remove all of it at once.
 - **Usage statistics and crash reports**: request deletion by email as described in section 2.
