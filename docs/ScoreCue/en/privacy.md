@@ -71,6 +71,8 @@ The following is stored only if you create a band or join one with an invite cod
 **visible to the other members of that band.**
 
 - Band name and invite code
+- The **band's representative image** if a leader sets one — stored as a small JPEG and visible
+  to that band's members
 - Roster: each member's UID, display name, profile photo URL, masked email address (e.g.
   `ab***@example.com`), the instrument and part they entered, role (owner / co-leader / member),
   and join and removal times — **email addresses are never stored in full.**
